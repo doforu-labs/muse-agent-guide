@@ -25,7 +25,7 @@
 |---|---|
 | [What it can do](#what-can-it-do) | The capability list, including the 15+ official connectors |
 | [The privacy story](#4-the-privacy-story-you-should-read) | TIME's investigation, in four points, with Meta's response |
-| [Open-source ecosystem](#5-open-source-alternatives--ecosystem) | 8 projects with stars and licences |
+| [Open-source ecosystem](#5-open-source-alternatives--ecosystem) | 9 projects with stars and licences |
 | [Data & sources →](data.md) | Every number, dated, with how to reproduce it |
 | [Timeline →](timeline.md) | Announcement → small business → investigation → today |
 | [Resources →](resources.md) | Official pages, coverage, ecosystem, tools |
@@ -147,6 +147,7 @@ Star counts captured **2026-10-08** via the GitHub API (see [`data.md`](data.md)
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | Visual manager for fleets of Claude Code / Codex / **Muse** agents |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | Muse agent experiments on ESP32 hardware |
 | [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | One message deploys Claude Code onto your Muse VM |
+| [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | TypeScript | Apache-2.0 | Unofficial ACP adapter — run Muse Code inside Zed / VS Code and other Agent Client Protocol editors |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | TypeScript | MIT | Personal agent that keeps context between conversations |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | Python | MIT | 23-skill library for Muse agents + a decision layer |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Python | — | Chinese knowledge-base assistant |
@@ -195,3 +196,4 @@ A chat assistant answers one turn at a time; Muse is an agent **with its own com
 ## Changelog
 
 - `2026-10-08` — English README published; verified availability (US + Canada 18+), connector list, announcement dates against primary sources; Chinese version moved to `README.zh-CN.md`.
+- `2026-10-08` — Ecosystem addition: `bex-co/muse-code-acp` (★10 · Apache-2.0 · TypeScript) — an unofficial ACP adapter for Muse Code in Zed / VS Code; ecosystem table 8 → 9. Search total re-checked: still 594.

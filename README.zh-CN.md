@@ -21,7 +21,7 @@
 | [数据与来源 →](data.zh-CN.md) | 每个数字都带日期与出处,附复现命令 |
 | [时间线 →](timeline.zh-CN.md) | 发布 → 小企业线 → TIME 调查 → 今天 |
 | [资源大全 →](resources.zh-CN.md) | 官方页面、媒体报道、开源生态、工具 |
-| [开源替代与生态](#五开源替代与生态) | 8 个项目,含星数与许可 |
+| [开源替代与生态](#五开源替代与生态) | 9 个项目,含星数与许可 |
 | [隐私争议](#四隐私争议该看的部分) | TIME 调查四点 + Meta 的回应 |
 | [English →](README.md) | 英文默认版(全部内容) |
 
@@ -143,6 +143,7 @@ Meta 官方定义(来源:`about.fb.com/news/2026/09/introducing-muse-personal-ai
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | 管理 Claude Code / Codex / **Muse** agent 集群的可视化面板 |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | 在 ESP32 上跑 Muse agent(硬件玩法) |
 | [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | 一条消息把 Claude Code 部署到你的 Muse VM 上 |
+| [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | TypeScript | Apache-2.0 | 非官方 ACP 适配器:在 Zed / VS Code 等 ACP 编辑器里用 Muse Code |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | Python | MIT | 面向 Muse agent 的 23 个 skill 库 + 决策层 |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | TypeScript | MIT | 跨会话保留上下文的个人 agent |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Python | — | 中文知识库助手(缪斯助手) |
@@ -192,6 +193,7 @@ Meta 官方定义(来源:`about.fb.com/news/2026/09/introducing-muse-personal-ai
 ## 更新日志
 
 - `2026-10-08` 初版:官方事实、隐私调查要点、生态表(8 个项目)、FAQ、资源集合
+- `2026-10-08` 生态增补:收录 `bex-co/muse-code-acp`(★10 · Apache-2.0 · TypeScript,非官方 ACP 适配器,让 Muse Code 跑在 Zed / VS Code 等 ACP 编辑器里;npm 首发 2026-08-27、最新 0.8.0),生态表 8 → 9;搜索总量复核仍为 594
 - `2026-10-08` 核验更新(官方页面内容变化复核):
   - 补官方**小企业线**(Muse for Small Business,2026-09-29 公告 + `muse.ai/business`)
   - 可用地区由"美国首发"更正为**美国 + 加拿大(18+)**,并补其它市场官方口径
