@@ -64,9 +64,11 @@ A newly created repository that matches the ecosystem search but has no track re
 
 ### Excluded on purpose
 
-A keyword match is not a recommendation. Repositories whose description/README are essentially an **invite or affiliate link** are left out — they are promotions, not ecosystem projects.
+A keyword match is not a recommendation. Repositories whose description/README are essentially an **invite or affiliate link**, or that point at a binary download which contradicts their own description, are left out — they are promotions or worse, not ecosystem projects.
 
 - Checked 2026-10-08 with the GitHub API: [`Git-FED/museAi-Chat`](https://github.com/Git-FED/museAi-Chat) — ★2, 1 fork, licence *NOASSERTION* (i.e. no licence), topics `do not touch`; the description and README lead with an invite code (`5F2V31` → `muse.ai/join`), and the same code is stamped across ~20 other repositories on that account. Not listed here; the watchdog re-reports it as "new", so this note is the answer.
+
+- Checked 2026-10-08 with the GitHub API: [`mentholated-roll141/Muse-Glimmer`](https://github.com/mentholated-roll141/Muse-Glimmer) — ★1, 1 fork, **no releases**, licence *NOASSERTION* (the `LICENSE` file is MIT, the README claims Apache-2.0). The README sells itself as "Meta's 30B Muse Glimmer" running on your own machine, but its download button points at `assets/v1.4.zip` — **487 KB**, where the same page says the archive is "several gigabytes" and the model 15-20 GB — and its troubleshooting section tells users to *"Bypass antivirus temporarily if needed"*. The model name is real (OpenRouter lists `meta/muse-glimmer-30b`, Hugging Face `meta-models/Muse-Glimmer-30B`); this repository is not a build of it. Not listed here; the watchdog re-reports it as "new", so this note is the answer.
 
 ### Topics & infrastructure
 

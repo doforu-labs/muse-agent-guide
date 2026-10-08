@@ -66,9 +66,11 @@
 
 ### 明确不收的
 
-**命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**的仓库一律不收 —— 那是推广,不是生态项目。
+**命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**、或指向与自己描述自相矛盾的二进制下载的仓库一律不收 —— 那是推广或更糟的东西,不是生态项目。
 
 - 2026-10-08 用 GitHub API 复核:[`Git-FED/museAi-Chat`](https://github.com/Git-FED/museAi-Chat) —— ★2、1 fork、许可 *NOASSERTION*(即无许可)、topics 写着 `do not touch`;描述与 README 以邀请码开头(`5F2V31` → `muse.ai/join`),同一账号约 20 个仓库都印着同一个码。**故不收录**;看门狗每轮仍会把它当"新仓库"报出来,这条就是答复。
+
+- 2026-10-08 用 GitHub API 复核:[`mentholated-roll141/Muse-Glimmer`](https://github.com/mentholated-roll141/Muse-Glimmer) —— ★1、1 fork、**无 release**、许可 *NOASSERTION*(`LICENSE` 文件是 MIT,README 却写 Apache-2.0)。README 自称是"Meta 的 30B Muse Glimmer"本地版,但下载按钮指向 `assets/v1.4.zip` —— **487 KB**,而同一页说压缩包"several gigabytes"、模型 15-20 GB —— 排错章节还教用户"如被杀软标记,先临时关闭杀软"。模型名是真的(OpenRouter 有 `meta/muse-glimmer-30b`,Hugging Face 为 `meta-models/Muse-Glimmer-30B`),但这个仓库不是它的实现。**故不收录**;看门狗每轮仍会把它当"新仓库"报出来,这条就是答复。
 
 ### 话题与索引
 
