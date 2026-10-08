@@ -56,6 +56,31 @@ Captured **2026-10-08 (UTC+8)**, except the `harris-ryder/dowser` row (**2026-10
 | Anthropomorphization | *"You are not a chatbot. You are becoming someone."* |
 | Meta's response | Spokesperson did not dispute the findings; emphasized user control and the ability to "forget" |
 
+## 3b. App Store listing — official metadata
+
+Read from Apple's public lookup API on **2026-10-09** — the store's own record, not third-party coverage.
+
+| Field | Value | Source | Captured |
+|---|---|---|---|
+| App | **Muse from Meta** · bundle `com.facebook.hatch` | Apple lookup API | 2026-10-09 |
+| First released | **2026-09-08** | Apple lookup API | 2026-10-09 |
+| Current version | **10.0**, updated **2026-10-07** | Apple lookup API | 2026-10-09 |
+| Price | **Free** | Apple lookup API | 2026-10-09 |
+| Rating | **4.86 / 5** from **177,302** ratings | Apple lookup API | 2026-10-09 |
+| Requirements | **iOS 18.0+** · 111.4 MB | Apple lookup API | 2026-10-09 |
+| Languages | at least 12 (AR, BN, BG, HR, CS, DA, NL, EN, FI, FR, DE, EL …) | Apple lookup API | 2026-10-09 |
+| Store screenshots | 8, archived under [`assets/store/`](assets/store/) — © Meta, kept for identification only | App Store listing | 2026-10-09 |
+
+The v10.0 release notes name the small-business connectors directly: **Asana, Canva, Dropbox, Figma, QuickBooks, GitHub, Klaviyo, Zoom, Meta ad accounts**.
+
+```bash
+# reproduce
+curl -s "https://itunes.apple.com/lookup?id=6760173601&country=us" \
+  | jq '.results[0] | {name:.trackName, seller:.sellerName, version, released:.releaseDate,
+                        updated:.currentVersionReleaseDate, price:.formattedPrice,
+                        rating:.averageUserRating, ratings:.userRatingCount, minOS:.minimumOsVersion}'
+```
+
 ## 4. How to reproduce this data
 
 ```bash

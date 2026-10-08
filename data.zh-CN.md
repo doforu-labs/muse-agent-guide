@@ -51,6 +51,25 @@
 | 人格化设定 | "You are not a chatbot. You are becoming someone." |
 | Meta 回应 | 发言人未否认调查结论,称用户始终可控、可要求 forget |
 
+## 三点五、App Store 官方商店信息
+
+2026-10-09 从 Apple 公开查询接口读取 —— 这是商店自己的记录,不是第三方报道。
+
+| 字段 | 值 | 来源 | 抓取日期 |
+|---|---|---|---|
+| App | **Muse from Meta** · bundle `com.facebook.hatch` | Apple lookup API | 2026-10-09 |
+| 首发 | **2026-09-08** | Apple lookup API | 2026-10-09 |
+| 当前版本 | **10.0**,更新于 **2026-10-07** | Apple lookup API | 2026-10-09 |
+| 价格 | **免费** | Apple lookup API | 2026-10-09 |
+| 评分 | **4.86 / 5**,共 **177,302** 个评分 | Apple lookup API | 2026-10-09 |
+| 要求 | **iOS 18.0+** · 111.4 MB | Apple lookup API | 2026-10-09 |
+| 语言 | 至少 12 种(AR、BN、BG、HR、CS、DA、NL、EN、FI、FR、DE、EL……) | Apple lookup API | 2026-10-09 |
+| 商店截图 | 8 张,存档于 [`assets/store/`](assets/store/) —— © Meta,仅供辨识用途 | App Store 商品页 | 2026-10-09 |
+
+v10.0 的更新说明直接点名了面向小企业的连接器:**Asana、Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom、Meta 广告账户**。
+
+复现命令见英文版 `data.md` 同一节。
+
 ## 四、本仓库数据的复现方式
 
 ```bash

@@ -10,6 +10,7 @@ All four images are generated from HTML in [`src/`](src/), so they are reproduci
 | [`font-compare.png`](font-compare.png) | 1280×700 | the same headline in the local CJK fonts, for picking one | `src/font-compare.html` |
 | [`font-compare-en.png`](font-compare-en.png) | 1280×760 | the official Latin face vs its fallbacks | `src/font-compare-en.html` |
 | [`ecosystem.png`](ecosystem.png) | 1400×820 | star-count comparison in the README | `src/ecosystem.html` |
+| [`store/`](store/) | 8 JPGs (Apple's sizes) | official App Store screenshots of *Muse from Meta* — © Meta Platforms, Inc., included for identification/commentary only and **NOT** covered by this repository's MIT licence | App Store listing, captured 2026-10-09 |
 | [`timeline.png`](timeline.png) | 1400×640 | the "capability and data collection shipped together" chronology | `src/timeline.html` |
 | [`architecture.png`](architecture.png) | 1400×700 | schematic of the Secure VM / Sentinel / recording model | `src/architecture.html` |
 
