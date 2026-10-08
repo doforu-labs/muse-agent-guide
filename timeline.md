@@ -21,6 +21,7 @@
 |---|---|---|
 | **2026-10-06** | **TIME publishes its privacy investigation** — hourly dossiers, non-users mapped through other people's agents, nightly analysis, cross-VM shared lessons, the limits of "forget". Reported then: **4M users, 5M+ downloads, #1 on the US App Store**; Meta's spokesperson did not dispute the findings | TIME / The Information |
 | 2026-10-08 | **This repository's first capture.** Stars, availability and connector list independently re-verified (including through a proxy exit, since Meta domains and GitHub intermittently drop direct connections from this host) | This repo |
+| 2026-10-08 | **The small-business announcement is updated**: its own page metadata now reports `dateModified` 2026-10-08T15:52:57Z (published 2026-09-29), and the launch announcement's "Related News" card switched from `September 29, 2026 / September 29, 2026` to `September 29, 2026 / October 8, 2026`. The main announcement's own "last updated" is still 2026-09-30. Body-level edits were not diffed (no earlier copy of that page) | `about.fb.com` page metadata (read 2026-10-09) |
 
 ## Officially "coming soon" as of 2026-10-08
 

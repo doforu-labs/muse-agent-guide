@@ -11,6 +11,7 @@
 |---|---|
 | [Introducing Muse (announcement)](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) | The launch: positioning, Secure VM, payment and privacy design (published 2026-09-08, updated 2026-09-30) |
 | [ai.meta.com/muse](https://ai.meta.com/muse/) | Product page: features, FAQ, download links |
+| [Muse for Small Business (announcement)](https://about.fb.com/news/2026/09/introducing-muse-small-business/) | The business expansion: 15+ connectors, US + Canada availability (published 2026-09-29, last updated 2026-10-08) |
 | [muse.ai](https://muse.ai/) | Web entry point |
 | [muse.ai/business](https://muse.ai/business) | Small-business line: 15+ connectors and the availability FAQ (US + Canada, 18+) |
 | `introducing.muse.ai` | "How We Designed Muse" — design rationale |

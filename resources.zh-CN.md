@@ -17,7 +17,7 @@
 | [权限设置帮助页](https://www.meta.com/help/1385290430137537/) | 逐项调整每个连接 App 的权限 |
 | [Link 购买保护范围](https://support.link.com/questions/what-s-covered-with-protections) | 官方说明:丢件/损坏、降价补差、免退货费 |
 | [muse.ai/business](https://muse.ai/business) | 官方《Muse for Small Business》页:连接器清单 + 可用地区/定价 FAQ(2026-10-08 核验 200) |
-| [Muse for Small Business 公告](https://about.fb.com/news/2026/09/introducing-muse-small-business/) | 2026-09-29 官方博客:给已有 Muse 加"new skills and connectors" |
+| [Muse for Small Business 公告](https://about.fb.com/news/2026/09/introducing-muse-small-business/) | 官方博客(published 2026-09-29,last updated 2026-10-08):给已有 Muse 加"new skills and connectors" |
 | [连接器合作申请](https://muse.ai/platform) | 官方:合作伙伴接入入口 |
 | [自定义连接器说明](https://www.meta.com/help/artificial-intelligence/1687253048996149/) | 官方帮助中心:接入尚未支持的服务 |
 | [订阅方案](https://www.meta.com/help/subscriptions/1021145227643680/) | 官方帮助中心:免费额度与订阅档 |

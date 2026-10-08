@@ -33,6 +33,7 @@
   - 补官方**小企业线**(`muse.ai/business` + 2026-09-29 公告)与连接器清单
   - 官方公告日期精确到 **2026-09-08**
   - 死链清理:`RomanSlack/Meta_Muse_Agent_System_Prompt` 已 404,从 [`resources.md`](resources.md) 移除
+- **官方小企业公告页有更新(2026-10-09 复核发现)**:`about.fb.com/news/2026/09/introducing-muse-small-business/` 页面元数据由 published 2026-09-29 变为 published 2026-09-29 + **last updated 2026-10-08**(dateModified 2026-10-08T15:52:57Z);主公告页侧栏 Related News 卡片同步从 "September 29, 2026 September 29, 2026" 变为 "September 29, 2026 October 8, 2026"。**正文差异未作比对**(无旧基线,且直连抓取间歇失败,不声称"新增")。主公告页自身 last updated 仍为 2026-09-30
 
 ## 待发生(官方口径,尚未上线)
 
