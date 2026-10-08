@@ -5,7 +5,7 @@
 
 **English version → [README.md](README.md)**
 
-![Muse —— 它做了什么、记录了什么、以及如何自建](assets/overview-long.png)
+![Muse, 智能 AI 为你省钱](assets/social-card.zh.png)
 
 ---
 

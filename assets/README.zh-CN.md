@@ -4,9 +4,9 @@
 
 | 图片 | 尺寸(2×) | 用途 | 源文件 |
 |---|---|---|---|
-| [`overview-long.png`](overview-long.png) | 1400×3040 @1.5× → 2100×4560 | **README 头图长条图**:一张图讲完整个故事(中英 README 共用) | `src/overview-long.html` |
+| [`overview-long.png`](overview-long.png) | 1400×3860 @1.5× → 2100×5790 | **英文 README 头图**:一张图讲完整个故事。**纯英文** —— 英文头图里不得出现中文 | `src/overview-long.html` |
 | [`social-card.png`](social-card.png) | 1280×640 | GitHub 社交预览卡(仓库 → Settings → Social preview) | `src/social-card.html` |
-| [`social-card.zh.png`](social-card.zh.png) | 1280×640 | 中文卡片,可单独使用 | `src/social-card.zh.html` |
+| [`social-card.zh.png`](social-card.zh.png) | 1280×640 | 中文卡片 —— 用作 `README.zh-CN.md` 头图 | `src/social-card.zh.html` |
 | [`font-compare.png`](font-compare.png) | 1280×700 | 同一句在几款中文字体下的对比,用于选型 | `src/font-compare.html` |
 | [`font-compare-en.png`](font-compare-en.png) | 1280×760 | 官方拉丁字体 vs 各回退字体 | `src/font-compare-en.html` |
 | [`ecosystem.png`](ecosystem.png) | 1400×820 | README 里的星数对比 | `src/ecosystem.html` |

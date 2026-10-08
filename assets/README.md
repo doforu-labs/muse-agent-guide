@@ -4,9 +4,9 @@ All four images are generated from HTML in [`src/`](src/), so they are reproduci
 
 | Image | Size (2×) | Used for | Built from |
 |---|---|---|---|
-| [`overview-long.png`](overview-long.png) | 1400×3040 @1.5× → 2100×4560 | **the README hero**: one tall strip carrying the whole story (both READMEs) | `src/overview-long.html` |
+| [`overview-long.png`](overview-long.png) | 1400×3860 @1.5× → 2100×5790 | **the English README hero**: one tall strip carrying the whole story. English only — the English hero must never contain CJK text | `src/overview-long.html` |
 | [`social-card.png`](social-card.png) | 1280×640 | GitHub social-preview card (repo → Settings → Social preview) | `src/social-card.html` |
-| [`social-card.zh.png`](social-card.zh.png) | 1280×640 | Chinese card, standalone | `src/social-card.zh.html` |
+| [`social-card.zh.png`](social-card.zh.png) | 1280×640 | Chinese card — hero of `README.zh-CN.md` | `src/social-card.zh.html` |
 | [`font-compare.png`](font-compare.png) | 1280×700 | the same headline in the local CJK fonts, for picking one | `src/font-compare.html` |
 | [`font-compare-en.png`](font-compare-en.png) | 1280×760 | the official Latin face vs its fallbacks | `src/font-compare-en.html` |
 | [`ecosystem.png`](ecosystem.png) | 1400×820 | star-count comparison in the README | `src/ecosystem.html` |
