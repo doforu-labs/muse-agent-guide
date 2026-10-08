@@ -29,7 +29,7 @@
 | CopilotKit/openmuse | 4,204 | 2026-10-08 | TypeScript | MIT |
 | avirtual/clodex | 124 | 2026-10-08 | JavaScript | Apache-2.0 |
 | JJenglert1/esp32-muse-agent | 21 | 2026-10-04 | Shell | Apache-2.0 |
-| Wode44398/muse-bridge | 13 | 2026-10-07 | TypeScript | MIT |
+| Wode44398/muse-bridge | 13 | 2026-10-08 | TypeScript | MIT |
 | bex-co/muse-code-acp | 10 | 2026-10-08 | TypeScript | Apache-2.0 |
 | wlsdks/muse-agent | 5 | 2026-09-03 | TypeScript | MIT |
 | theglitcharchitect/muse-skills | 3 | 2026-09-21 | Python | MIT |

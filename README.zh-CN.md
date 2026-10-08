@@ -142,7 +142,7 @@ Meta 官方定义(来源:`about.fb.com/news/2026/09/introducing-muse-personal-ai
 | [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 4.2k | TypeScript | MIT | **最像 Muse 的开源实现**:持久 Chromium + 可选 Linux 工作区,自建 server / task worker / browser worker |
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | 管理 Claude Code / Codex / **Muse** agent 集群的可视化面板 |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | 在 ESP32 上跑 Muse agent(硬件玩法) |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | 一条消息把 Claude Code 部署到你的 Muse VM 上 |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
 | [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | TypeScript | Apache-2.0 | 非官方 ACP 适配器:在 Zed / VS Code 等 ACP 编辑器里用 Muse Code |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | Python | MIT | 面向 Muse agent 的 23 个 skill 库 + 决策层 |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | TypeScript | MIT | 跨会话保留上下文的个人 agent |

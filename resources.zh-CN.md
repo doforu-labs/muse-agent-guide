@@ -49,7 +49,7 @@
 | 项目 | ★ | 用途 |
 |---|---|---|
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | 统一管理 Claude Code / Codex / Muse 的 agent 集群 |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | 一条消息把 Claude Code 部署到你的 Muse VM |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
 | [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | **非官方** ACP 适配器:在 Zed / VS Code 等 Agent Client Protocol 编辑器里跑 Muse Code(npm `@bex-co/muse-code-acp`) |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | 23 个 Muse agent skill + 决策层 |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | 跨会话保留上下文的个人 agent |

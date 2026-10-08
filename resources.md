@@ -47,7 +47,7 @@
 | Project | ★ | What it does |
 |---|---|---|
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | Manage fleets of Claude Code / Codex / Muse agents |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | One message deploys Claude Code onto your Muse VM |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | One message deploys Claude Code onto your Muse VM; the repo now also ships *dimensio*, a multi-model agent workspace |
 | [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | **Unofficial** ACP adapter — drive Muse Code from Zed, VS Code and other Agent Client Protocol editors (npm `@bex-co/muse-code-acp`) |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | 23 Muse agent skills + a decision layer |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | Personal agent that keeps context across sessions |
