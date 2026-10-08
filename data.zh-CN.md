@@ -35,7 +35,7 @@
 | theglitcharchitect/muse-skills | 3 | 2026-09-21 | Python | MIT |
 | jkxiongxin/muse-agent | 2 | 2026-07-30 | Python | — |
 
-**相关仓库样本量**:GitHub 搜索 `muse agent in:name,description` 返回 `total_count = 594`(2026-10-08,复核两次);绝大多数与"Meta Muse 个人 agent"无关,本仓库只精挑上表 9 个入表。相比当天首次抓取 +1 的,是一条刚建的仓库 `kiragamingofficial95-cmd/nexus-ai` —— 用 `user:kiragamingofficial95-cmd` 过滤重跑该搜索,恰好只返回它一个,增量由此归因;它按"新出现、未验证"记在 [`resources.zh-CN.md`](resources.zh-CN.md) 里,未进上表。此前版本写的"48 个"来自看门狗的跟踪名单长度,不是搜索总量,已更正。同日稍后复核,`total_count` 仍为 594,但同一查询新命中一条 `KimFischer99/Museion-Agent-SDK`(用 `user:KimFischer99` 过滤恰好只返回它一个)—— 总量没动,说明至少有一条旧命中离开了结果集,或索引尚未跟上;数字如实照录。该仓库同样按"新出现、未验证"记在 [`resources.zh-CN.md`](resources.zh-CN.md)。
+**相关仓库样本量**:GitHub 搜索 `muse agent in:name,description` 返回 `total_count = 595`(2026-10-08;当天前两次复核为 594,之后为 595);绝大多数与"Meta Muse 个人 agent"无关,本仓库只精挑上表 9 个入表。相比当天首次抓取 +1 的,是一条刚建的仓库 `kiragamingofficial95-cmd/nexus-ai` —— 用 `user:kiragamingofficial95-cmd` 过滤重跑该搜索,恰好只返回它一个,增量由此归因;它按"新出现、未验证"记在 [`resources.zh-CN.md`](resources.zh-CN.md) 里,未进上表。此前版本写的"48 个"来自看门狗的跟踪名单长度,不是搜索总量,已更正。同日稍后复核,`total_count` 仍为 594,但同一查询新命中一条 `KimFischer99/Museion-Agent-SDK`(用 `user:KimFischer99` 过滤恰好只返回它一个)—— 总量没动,说明至少有一条旧命中离开了结果集,或索引尚未跟上;数字如实照录。该仓库同样按"新出现、未验证"记在 [`resources.zh-CN.md`](resources.zh-CN.md)。同日再复核,`total_count` 变为 595(较此前 594 +1),用 `user:RobertoAgent` 过滤同一查询恰好只返回一条 `RobertoAgent/roberto-agent-plugins`,增量由此归因;该仓库同样按"新出现、未验证"记在 [`resources.zh-CN.md`](resources.zh-CN.md),未进上表。
 
 ## 三、TIME 调查中的关键事实(2026-10-06)
 

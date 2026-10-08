@@ -194,7 +194,8 @@ Meta 官方定义(来源:`about.fb.com/news/2026/09/introducing-muse-personal-ai
 
 - `2026-10-08` 初版:官方事实、隐私调查要点、生态表(8 个项目)、FAQ、资源集合
 - `2026-10-08` 生态增补:收录 `bex-co/muse-code-acp`(★10 · Apache-2.0 · TypeScript,非官方 ACP 适配器,让 Muse Code 跑在 Zed / VS Code 等 ACP 编辑器里;npm 首发 2026-08-27、最新 0.8.0),生态表 8 → 9;搜索总量复核仍为 594
-- `2026-10-08` 新命中仓库(未入生态表):`KimFischer99/Museion-Agent-SDK`(★0 · Python,创建于 2026-10-07)—— README 自称基于 Muse 的"主动式 agent 运行时";按"新出现、未验证"记入 [`resources.zh-CN.md`](resources.zh-CN.md)。搜索总量复核仍为 594
+- `2026-10-08` 新命中仓库(未入生态表):`KimFischer99/Museion-Agent-SDK`(★0 · Python,创建于 2026-10-07)—— README 自称基于 Muse 的"主动式 agent 运行时";按"新出现、未验证"记入 [`resources.zh-CN.md`](resources.zh-CN.md)。搜索总量复核仍为 594。
+- `2026-10-08` 新命中仓库(未入生态表):`RobertoAgent/roberto-agent-plugins`(★0 · Apache-2.0 · JavaScript,创建于 2026-10-08)—— 把其它 agent 接到 Roberto 个人 agent 的插件集合,内含 `meta-muse/` 连接器;按"新出现、未验证"记入 [`resources.zh-CN.md`](resources.zh-CN.md)。搜索总量复核 595(此前 594),+1 归因到该仓库
 - `2026-10-08` 核验更新(官方页面内容变化复核):
   - 补官方**小企业线**(Muse for Small Business,2026-09-29 公告 + `muse.ai/business`)
   - 可用地区由"美国首发"更正为**美国 + 加拿大(18+)**,并补其它市场官方口径

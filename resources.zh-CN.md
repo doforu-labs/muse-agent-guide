@@ -62,6 +62,7 @@
 
 - [kiragamingofficial95-cmd/nexus-ai](https://github.com/kiragamingofficial95-cmd/nexus-ai) —— ★0 · MIT · Python,创建于 2026-10-08。Windows 桌面助手(CustomTkinter):"agent 扫网页 → 结构化 Markdown 报告"、阅读模式浏览、带确认弹窗的 PC 控制;README 把 BYOK 对话指向 `meta/muse-spark-1.3`。相关性停在*模型*层(通过 OpenAI 兼容接口调用 Muse Spark),不在 Muse agent 层;该账号还发布过大量小项目,仓库只有一天大 —— 因此暂不进上表,等它有实际记录再说
 - [KimFischer99/Museion-Agent-SDK](https://github.com/KimFischer99/Museion-Agent-SDK) —— ★0 · Python,创建于 2026-10-07、最后推送 2026-10-08。README(v0.1.2)自称 "developed based on Muse":一个*主动式* agent 运行时 —— 定时提醒、可选订阅的新闻研究(每小时抓 Bing News RSS)、持久化兴趣,通知投递到本地收件箱或你自己的 HTTPS webhook;Python 包名 `proactive-sdk`,分析后端可选模型 API / Pi / Hermes。许可只在 README 里写:原始 SDK 代码 MIT、Muse 衍生 skill 保留各自来源声明、第三方再分发权限未完全核实(GitHub 未识别出标准许可文件)。★0、0 fork、只有一天大,账号有 33 个公开仓库 —— 先记在这里,不进上表,等有实际记录再说。。
+- [RobertoAgent/roberto-agent-plugins](https://github.com/RobertoAgent/roberto-agent-plugins) —— ★0 · Apache-2.0 · JavaScript,创建于 2026-10-08。一组把其它 agent 接到 Roberto(个人 AI agent,`robertoagent.com`;2026-10-08 实测该站与 MCP 授权服务器 well-known 地址均返回 200)的插件包:ChatGPT / Codex 包、Cursor / Grok Bot 插件,以及 `meta-muse/` 连接器 —— 用 Read / Write / Sensitive write 三类标注 agent 对 Muse 可发起的调用。相关性在于它把 Muse 当作对接目标之一,而不是基于 Muse 构建;该组织只有一个月大、2 个公开仓库,本仓库只有 1 个 commit,各包都指向同一个托管服务器。先记在这里,不进上表,等有实际记录再说。
 
 ### 明确不收的
 
