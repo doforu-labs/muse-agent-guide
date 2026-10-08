@@ -35,6 +35,7 @@
 | YouTube:《自带云端电脑的 AI Agent 来袭!Meta Muse 详细注册与实测》 | 中文实测流程(注册到实际用) |
 | YouTube:《10 個實用玩法一次看》 | 实测玩法集合(社交发布、找家具、订餐厅等) |
 | [mahdi-salmanzade/meta-muse-teardown](https://github.com/mahdi-salmanzade/meta-muse-teardown)(GitHub,★3,无 licence) | 对 **Muse 3.0 macOS** 包(`com.meta.endo`)的独立静态拆解,另含 Android / iOS 样本:哪些连接器能触达 iMessage、WhatsApp、照片、邮件、屏幕捕获与电脑控制,按日期归档审计文档、证据摘录与复现脚本。仅为静态分析——作者注明未观察到原生上传、解密后的 iOS 指令未经认证 |
+| [tenex-labs/muse-personal-agent-start-kit](https://github.com/tenex-labs/muse-personal-agent-start-kit)(GitHub,★0,无 licence,创建于 2026-10-08) | **JJ Englert / Tenex** 做的面向新手的 Muse 起步包(该组织创建于 2025-06,其 `daily-brief` 仓库 ★53):先用"今晚看什么电影"拿到第一次成功,再配 memory、SOUL、连接器与 Feed,附十个可直接粘贴的日常 workflow(穿搭、影视、吃饭、健康、日历、生日、周末、购物、表单、出行)、routine 模板与贡献指南。文字版可离线读;带演示的网页版 `https://tenex-labs.github.io/muse-personal-agent-start-kit/` 于 2026-10-08 实测 200,而 README 内链的 `…-start-kit-safe` 路径同日 404。★0、无 licence 文件 —— 属社区指南,不是经核验的工具 |
 
 ## 3. 开源生态(可直接跑的同类实现)
 
