@@ -34,6 +34,7 @@
 | [Manager Today:Muse 是什么、怎么用](https://www.managertoday.com.tw/articles/view/72980) | 繁体中文:5 个官方应用情境 + 免费额度与付费方案 |
 | YouTube:《自带云端电脑的 AI Agent 来袭!Meta Muse 详细注册与实测》 | 中文实测流程(注册到实际用) |
 | YouTube:《10 個實用玩法一次看》 | 实测玩法集合(社交发布、找家具、订餐厅等) |
+| [mahdi-salmanzade/meta-muse-teardown](https://github.com/mahdi-salmanzade/meta-muse-teardown)(GitHub,★3,无 licence) | 对 **Muse 3.0 macOS** 包(`com.meta.endo`)的独立静态拆解,另含 Android / iOS 样本:哪些连接器能触达 iMessage、WhatsApp、照片、邮件、屏幕捕获与电脑控制,按日期归档审计文档、证据摘录与复现脚本。仅为静态分析——作者注明未观察到原生上传、解密后的 iOS 指令未经认证 |
 
 ## 3. 开源生态(可直接跑的同类实现)
 
@@ -77,6 +78,7 @@
 - GitHub Topics:[`muse-code`](https://github.com/topics/muse-code) · [`muse-spark`](https://github.com/topics/muse-spark)
 - 模型获取:[OpenRouter 上的 Muse Spark 1.3](https://openrouter.ai/meta/muse-spark-1.3) —— 模型 id 为 `meta/muse-spark-1.3` 与 `meta/muse-spark-1.3-contributor`,同一列表里还有 1.1、1.2 以及 `meta/muse-glimmer-30b`。读自 OpenRouter 公开模型列表并实测模型页(HTTP 200),2026-10-08。
 - 构建 agent 的基础设施:[CopilotKit](https://github.com/CopilotKit) · AG-UI 协议(openmuse 用它做事件流)
+- 仅关键词命中、与 Muse 无关,已于 2026-10-08 用 GitHub API 核对:[`MVReddy/MuseAgentTaskRepo`](https://github.com/MVReddy/MuseAgentTaskRepo) — ★0 · Python · 无 licence,创建于 2026-09-27,最后推送 2026-10-08。仓库名命中生态检索,但 README 只是 "Daily Python experiments: sample Google Ask agents" 这类通用 agent 练习,没有任何 Muse 内容。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
 
 ## 4. 想自己搭一个"个人 agent"?推荐路径
 

@@ -32,6 +32,7 @@
 | [Manager Today (Chinese) — what Muse is and how to use it](https://www.managertoday.com.tw/articles/view/72980) | 5 official use cases + free/paid tiers |
 | YouTube — "Meta Muse full walkthrough" (Chinese) | Registration through real usage, filmed |
 | YouTube — "10 practical Muse use cases" | Social posting, furniture sourcing, restaurant booking |
+| [mahdi-salmanzade/meta-muse-teardown](https://github.com/mahdi-salmanzade/meta-muse-teardown) (GitHub, ★3, no licence) | Independent static teardown of the **Muse 3.0 macOS** build (`com.meta.endo`), plus Android and iOS samples: which connectors can reach iMessage, WhatsApp, Photos, mail, screen capture and computer control, with dated audit documents, evidence excerpts and reproduction scripts. Static analysis only — the author notes no native uploads were observed and the decrypted iOS instructions stay unauthenticated |
 
 ## 3. Open-source ecosystem
 
@@ -64,7 +65,7 @@ A newly created repository that matches the ecosystem search but has no track re
 
 ### Excluded on purpose
 
-A keyword match is not a recommendation. Repositories whose description/README are essentially an **invite or affiliate link**, or that point at a binary download which contradicts their own description, are left out — they are promotions or worse, not ecosystem projects.
+A keyword match is not a recommendation. Repositories whose description/README are essentially an **invite or affiliate link**, that point at a binary download which contradicts their own description, or whose *name alone* matches the search while the README has no Muse content, are left out — they are promotions, unrelated projects or worse, not ecosystem projects.
 
 - Checked 2026-10-08 with the GitHub API: [`Git-FED/museAi-Chat`](https://github.com/Git-FED/museAi-Chat) — ★2, 1 fork, licence *NOASSERTION* (i.e. no licence), topics `do not touch`; the description and README lead with an invite code (`5F2V31` → `muse.ai/join`), and the same code is stamped across ~20 other repositories on that account. Not listed here; the watchdog re-reports it as "new", so this note is the answer.
 
@@ -75,6 +76,7 @@ A keyword match is not a recommendation. Repositories whose description/README a
 - GitHub topics: [`muse-code`](https://github.com/topics/muse-code) · [`muse-spark`](https://github.com/topics/muse-spark)
 - Model access: [Muse Spark 1.3 on OpenRouter](https://openrouter.ai/meta/muse-spark-1.3) — model ids `meta/muse-spark-1.3` and `meta/muse-spark-1.3-contributor`; the same list carries 1.1, 1.2 and `meta/muse-glimmer-30b`. Read off OpenRouter's public model list and the model page (HTTP 200), 2026-10-08.
 - Agent infrastructure: [CopilotKit](https://github.com/CopilotKit) · the AG-UI protocol (used by openmuse for its event stream)
+- Keyword false positive, checked 2026-10-08 with the GitHub API: [`MVReddy/MuseAgentTaskRepo`](https://github.com/MVReddy/MuseAgentTaskRepo) — ★0 · Python · no licence, created 2026-09-27, last push 2026-10-08. The repository name matches the ecosystem search, but its README is "Daily Python experiments: sample Google Ask agents, improved every day" — a generic agent-practice repo with no Muse content. Not listed as an ecosystem project; noted so the watchdog's "new repo" report has an answer.
 
 ## 4. Building one yourself — a recommended path
 
