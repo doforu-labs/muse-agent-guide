@@ -36,7 +36,7 @@ Captured **2026-10-08 (UTC+8)**. Stars move fast — treat as a snapshot, not a 
 | theglitcharchitect/muse-skills | 3 | 2026-09-21 | Python | MIT |
 | jkxiongxin/muse-agent | 2 | 2026-07-30 | Python | — |
 
-**Search volume:** GitHub search `muse agent in:name,description` returned **`total_count = 593`** (2026-10-08). The overwhelming majority are unrelated to "Meta Muse, personal agent"; only the 8 relevant repositories are listed.
+**Search volume:** GitHub search `muse agent in:name,description` returned **`total_count = 594`** (2026-10-08, re-checked twice). The overwhelming majority are unrelated to "Meta Muse, personal agent"; only the 8 relevant repositories are listed in the table above. The +1 over the first capture of that day is a single newly created repository, `kiragamingofficial95-cmd/nexus-ai` — re-running the query with a `user:kiragamingofficial95-cmd` filter returns exactly that one repository, which is how the increment was attributed. It is recorded as "new, not yet vetted" in [`resources.md`](resources.md) rather than listed here.
 
 > **Correction log:** an earlier version of this file said "48 related repositories". That figure was the length of the watchdog's tracked list, **not** the search total. Corrected to 593 on 2026-10-08.
 

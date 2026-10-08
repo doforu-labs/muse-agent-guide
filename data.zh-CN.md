@@ -34,7 +34,7 @@
 | theglitcharchitect/muse-skills | 3 | 2026-09-21 | Python | MIT |
 | jkxiongxin/muse-agent | 2 | 2026-07-30 | Python | — |
 
-**相关仓库样本量**:GitHub 搜索 `muse agent in:name,description` 返回 `total_count = 593`(2026-10-08 抓取);绝大多数与"Meta Muse 个人 agent"无关,本仓库只精挑上述 8 个入表。此前版本写的"48 个"来自看门狗的跟踪名单长度,不是搜索总量,已更正。
+**相关仓库样本量**:GitHub 搜索 `muse agent in:name,description` 返回 `total_count = 594`(2026-10-08,复核两次);绝大多数与"Meta Muse 个人 agent"无关,本仓库只精挑上表 8 个入表。相比当天首次抓取 +1 的,是一条刚建的仓库 `kiragamingofficial95-cmd/nexus-ai` —— 用 `user:kiragamingofficial95-cmd` 过滤重跑该搜索,恰好只返回它一个,增量由此归因;它按"新出现、未验证"记在 [`resources.zh-CN.md`](resources.zh-CN.md) 里,未进上表。此前版本写的"48 个"来自看门狗的跟踪名单长度,不是搜索总量,已更正。
 
 ## 三、TIME 调查中的关键事实(2026-10-06)
 

@@ -55,6 +55,12 @@
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | 中文知识库助手 |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 硬件方向实验 |
 
+### 暂记:新出现、未验证
+
+刚建、命中生态搜索但还没有任何记录的仓库。写在这里是为了给看门狗的"新仓库"提醒一个答复 —— **不是推荐**。
+
+- [kiragamingofficial95-cmd/nexus-ai](https://github.com/kiragamingofficial95-cmd/nexus-ai) —— ★0 · MIT · Python,创建于 2026-10-08。Windows 桌面助手(CustomTkinter):"agent 扫网页 → 结构化 Markdown 报告"、阅读模式浏览、带确认弹窗的 PC 控制;README 把 BYOK 对话指向 `meta/muse-spark-1.3`。相关性停在*模型*层(通过 OpenAI 兼容接口调用 Muse Spark),不在 Muse agent 层;该账号还发布过大量小项目,仓库只有一天大 —— 因此暂不进上表,等它有实际记录再说。
+
 ### 明确不收的
 
 **命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**的仓库一律不收 —— 那是推广,不是生态项目。
@@ -64,6 +70,7 @@
 ### 话题与索引
 
 - GitHub Topics:[`muse-code`](https://github.com/topics/muse-code) · [`muse-spark`](https://github.com/topics/muse-spark)
+- 模型获取:[OpenRouter 上的 Muse Spark 1.3](https://openrouter.ai/meta/muse-spark-1.3) —— 模型 id 为 `meta/muse-spark-1.3` 与 `meta/muse-spark-1.3-contributor`,同一列表里还有 1.1、1.2 以及 `meta/muse-glimmer-30b`。读自 OpenRouter 公开模型列表并实测模型页(HTTP 200),2026-10-08。
 - 构建 agent 的基础设施:[CopilotKit](https://github.com/CopilotKit) · AG-UI 协议(openmuse 用它做事件流)
 
 ## 4. 想自己搭一个"个人 agent"?推荐路径
@@ -81,4 +88,4 @@
 
 **收录标准**:必须与"Muse / 个人 agent"直接相关,且能打开。发现失效链接或有更好的资源,欢迎提 Issue。
 
-**存活抽查**:2026-10-08 本轮用 `curl -sI/-sL` 抽查了本文件全部外链(200/301/302 通过);`RomanSlack/Meta_Muse_Agent_System_Prompt` 已 404(GitHub API 与网页均返回 404),故移除。星数与许可来自 `gh api graphql`(见 [`data.md`](data.md))。
+**存活抽查**:2026-10-08 本轮用 `curl -sI/-sL` 抽查了本文件全部外链(200/301/302 通过);`RomanSlack/Meta_Muse_Agent_System_Prompt` 已 404(GitHub API 与网页均返回 404),故移除。本轮新增的两条链接(GitHub 仓库页、OpenRouter 模型页)分别以 `gh api` 与浏览器实测,均 200。星数与许可来自 `gh api graphql`(见 [`data.md`](data.md))。

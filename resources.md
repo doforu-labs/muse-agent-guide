@@ -53,6 +53,12 @@
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Chinese knowledge-base assistant |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 hardware experiments |
 
+### Tracked, not yet vetted
+
+A newly created repository that matches the ecosystem search but has no track record yet. Listed so the watchdog's "new repo" reports have an answer — **not** a recommendation.
+
+- [kiragamingofficial95-cmd/nexus-ai](https://github.com/kiragamingofficial95-cmd/nexus-ai) — ★0 · MIT · Python, created 2026-10-08. A Windows desktop assistant (CustomTkinter): an "agent web-scan → structured Markdown report" task, reader-view browsing, PC control behind confirmation dialogs; its README routes BYOK chat to `meta/muse-spark-1.3`. The relevance is at the *model* level (it calls Muse Spark through an OpenAI-compatible API), not the Muse-agent level, the account publishes many small projects, and the repository is one day old — so it stays out of the table above until it has a track record.
+
 ### Excluded on purpose
 
 A keyword match is not a recommendation. Repositories whose description/README are essentially an **invite or affiliate link** are left out — they are promotions, not ecosystem projects.
@@ -62,6 +68,7 @@ A keyword match is not a recommendation. Repositories whose description/README a
 ### Topics & infrastructure
 
 - GitHub topics: [`muse-code`](https://github.com/topics/muse-code) · [`muse-spark`](https://github.com/topics/muse-spark)
+- Model access: [Muse Spark 1.3 on OpenRouter](https://openrouter.ai/meta/muse-spark-1.3) — model ids `meta/muse-spark-1.3` and `meta/muse-spark-1.3-contributor`; the same list carries 1.1, 1.2 and `meta/muse-glimmer-30b`. Read off OpenRouter's public model list and the model page (HTTP 200), 2026-10-08.
 - Agent infrastructure: [CopilotKit](https://github.com/CopilotKit) · the AG-UI protocol (used by openmuse for its event stream)
 
 ## 4. Building one yourself — a recommended path
