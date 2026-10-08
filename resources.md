@@ -55,6 +55,7 @@
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | Personal agent that keeps context across sessions |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Chinese knowledge-base assistant |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 hardware experiments |
+| [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | Read-only MCP connector built for the [Muse Connector Platform](https://muse.ai/platform): six tools (class-action settlements, CPSC recalls, unused card credits, expiring points, birthday freebies, "what's new"), each also a REST endpoint; MIT · TypeScript · created 2026-09-19, last push 2026-10-08 |
 
 ### Tracked, not yet vetted
 

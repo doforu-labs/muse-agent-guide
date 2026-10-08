@@ -57,6 +57,7 @@
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | 跨会话保留上下文的个人 agent |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | 中文知识库助手 |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 硬件方向实验 |
+| [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | 面向 [Muse Connector Platform](https://muse.ai/platform) 的只读 MCP 连接器:六个工具(集体诉讼和解、CPSC 产品召回、未用掉的信用卡权益、到期积分、生日免费赠品、"有什么新东西"),每个同时也是 REST 接口;MIT · TypeScript · 创建于 2026-09-19 |
 
 ### 暂记:新出现、未验证
 
