@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+  body { width:1280px; height:760px; padding:44px 64px; display:flex; flex-direction:column; }
+  .top { display:flex; justify-content:space-between; align-items:center; padding-bottom:16px; border-bottom:1px solid var(--border); }
+  h1 { font-size:30px; font-weight:500; letter-spacing:-0.01em; margin-top:20px; }
+  .rows { margin-top:18px; flex:1; display:flex; flex-direction:column; justify-content:space-between; }
+  .row { display:grid; grid-template-columns:310px 1fr; align-items:center; gap:22px; padding:11px 0; border-bottom:1px solid var(--border); }
+  .row:last-child { border-bottom:none; }
+  .fname { font-size:14.5px; color:var(--text-secondary); line-height:1.45; }
+  .fname b { display:block; font-size:16.5px; font-weight:500; color:var(--text-primary); }
+  .fname span { display:block; margin-top:3px; font-family:var(--font-mono); font-size:11px; color:var(--text-tertiary); }
+  .badge { display:inline-block; margin-top:5px; font-size:11.5px; padding:2px 8px; border-radius:var(--pill);
+           background:var(--blue-tint); color:var(--blue-solid); }
+  .sample { font-size:42px; font-weight:500; line-height:1.2; letter-spacing:-0.01em; }
+  .f-opt  { font-family:"optimisticAI", sans-serif; }
+  .f-arial{ font-family:"Liberation Sans", Arial, sans-serif; }
+  .f-dej  { font-family:"DejaVu Sans", sans-serif; }
+  .f-nim  { font-family:"Nimbus Sans", Helvetica, sans-serif; }
+  .f-sys  { font-family:system-ui, sans-serif; }
+</style></head><body>
+  <div class="top">
+    <div class="brand-lockup">
+      <img src="../muse-logo.svg" alt="Muse" width="30" height="30">
+      <div class="wordmark" style="font-size:19px">Muse</div>
+    </div>
+    <div class="eyebrow">English typeface · same size, same weight</div>
+  </div>
+
+  <h1>The official headline set in the official face — and in the fallbacks</h1>
+
+  <div class="rows">
+    <div class="row">
+      <div class="fname"><b>Optimistic AI</b>Meta's own variable font (wght 400–600)<span>OptimisticAI_VF_Optimized-s.p.*.woff2</span>
+        <div class="badge">the face used by every image in this repo</div></div>
+      <div class="sample f-opt">Muse, AI that gets it done for you</div>
+    </div>
+    <div class="row">
+      <div class="fname"><b>Liberation Sans</b>= Arial-metric compatible<span>Meta's own declared fallback: local(Arial)</span>
+        <div class="badge">the official @font-face fallback, size-adjust 96.36%</div></div>
+      <div class="sample f-arial">Muse, AI that gets it done for you</div>
+    </div>
+    <div class="row">
+      <div class="fname"><b>DejaVu Sans</b>common Linux default<span>/usr/share/fonts/truetype/dejavu</span></div>
+      <div class="sample f-dej">Muse, AI that gets it done for you</div>
+    </div>
+    <div class="row">
+      <div class="fname"><b>Nimbus Sans</b>Helvetica-metric clone<span>/usr/share/fonts/type1/urw-base35</span></div>
+      <div class="sample f-nim">Muse, AI that gets it done for you</div>
+    </div>
+    <div class="row">
+      <div class="fname"><b>system-ui</b>browser fallback stack<span>only reached when no face above resolves</span></div>
+      <div class="sample f-sys">Muse, AI that gets it done for you</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div>Text: the official headline. Differences in letter width and terminal shapes show which face is really rendering.</div>
+    <div class="repo">muse-agent-guide / assets</div>
+  </div>
+</body></html>

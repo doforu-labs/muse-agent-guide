@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+  body { width:1400px; height:820px; padding:52px 64px; display:flex; flex-direction:column; }
+  .top { display:flex; justify-content:space-between; align-items:center; padding-bottom:20px; border-bottom:1px solid var(--border); }
+  h1 { font-size:36px; font-weight:var(--h2-weight); line-height:1.15; letter-spacing:-0.015em; margin-top:28px; }
+  h1 em { font-style:normal; color:var(--blue-solid); }
+  .rows { margin-top:30px; flex:1; display:flex; flex-direction:column; justify-content:space-between; }
+  .row { display:grid; grid-template-columns:340px 1fr 100px; align-items:center; gap:20px; }
+  .name { font-size:20px; font-weight:500; letter-spacing:-0.01em; }
+  .name em { display:block; font-size:13px; color:var(--text-secondary); font-style:normal; margin-top:3px; }
+  .track { height:30px; background:var(--surface-muted); border-radius:var(--pill); overflow:hidden; }
+  .bar { height:100%; border-radius:var(--pill); background:var(--brand-gradient); }
+  .bar.dim { background:linear-gradient(135deg,#BBD9FF,#7CC9FF); }
+  .val { font-size:22px; font-weight:500; text-align:right; font-variant-numeric:tabular-nums; letter-spacing:-0.01em; }
+</style></head><body>
+  <div class="top">
+    <div class="brand-lockup">
+      <img src="../muse-logo.svg" alt="Muse" width="34" height="34">
+      <div class="wordmark" style="font-size:21px">Muse</div>
+    </div>
+    <div class="eyebrow">Open-source ecosystem vs. Muse</div>
+  </div>
+
+  <h1>Who is building the <em>same thing, in the open</em></h1>
+
+  <div class="rows">
+    <div class="row"><div class="name">HKUDS/OpenHarness<em>Python · MIT · open agent harness (“Ohmo”)</em></div>
+      <div class="track"><div class="bar" style="width:100%"></div></div><div class="val">15,919</div></div>
+    <div class="row"><div class="name">CopilotKit/openmuse<em>TypeScript · MIT · closest open equivalent</em></div>
+      <div class="track"><div class="bar" style="width:51.4%"></div></div><div class="val">4,204</div></div>
+    <div class="row"><div class="name">avirtual/clodex<em>JavaScript · Apache-2.0 · agent fleet manager</em></div>
+      <div class="track"><div class="bar" style="width:8.8%"></div></div><div class="val">124</div></div>
+    <div class="row"><div class="name">JJenglert1/esp32-muse-agent<em>Shell · Apache-2.0 · ESP32 experiments</em></div>
+      <div class="track"><div class="bar" style="width:3.6%"></div></div><div class="val">21</div></div>
+    <div class="row"><div class="name">Wode44398/muse-bridge<em>TypeScript · MIT · deploy onto your Muse VM</em></div>
+      <div class="track"><div class="bar" style="width:2.9%"></div></div><div class="val">13</div></div>
+    <div class="row"><div class="name">wlsdks/muse-agent<em>TypeScript · MIT · persistent context</em></div>
+      <div class="track"><div class="bar dim" style="width:1.8%"></div></div><div class="val">5</div></div>
+    <div class="row"><div class="name">theglitcharchitect/muse-skills<em>Python · MIT · 23 agent skills</em></div>
+      <div class="track"><div class="bar dim" style="width:1.4%"></div></div><div class="val">3</div></div>
+    <div class="row"><div class="name">jkxiongxin/muse-agent<em>Python · Chinese knowledge-base assistant</em></div>
+      <div class="track"><div class="bar dim" style="width:1.1%"></div></div><div class="val">2</div></div>
+  </div>
+
+  <div class="foot" style="margin-top:22px">
+    <div>Bar length ∝ √stars, so small projects stay visible. Muse itself is closed-source.</div>
+    <div class="repo">github.com/doforu-labs/muse-agent-guide</div>
+  </div>
+</body></html>

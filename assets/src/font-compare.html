@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+  body { width:1280px; height:700px; padding:44px 64px; display:flex; flex-direction:column; }
+  .top { display:flex; justify-content:space-between; align-items:center; padding-bottom:16px; border-bottom:1px solid var(--border); }
+  h1 { font-size:30px; font-weight:500; letter-spacing:-0.01em; margin-top:22px; }
+  .rows { margin-top:22px; flex:1; display:flex; flex-direction:column; justify-content:space-between; }
+  .row { display:grid; grid-template-columns:290px 1fr; align-items:center; gap:22px; padding:14px 0; border-bottom:1px solid var(--border); }
+  .row:last-child { border-bottom:none; }
+  .fname { font-size:15px; color:var(--text-secondary); line-height:1.5; }
+  .fname b { display:block; font-size:17px; font-weight:500; color:var(--text-primary); }
+  .fname span { display:block; margin-top:3px; font-family:var(--font-mono); font-size:11.5px; color:var(--text-tertiary); }
+  .sample { font-size:44px; font-weight:500; line-height:1.2; letter-spacing:-0.01em; }
+  .h { font-family:"optimisticAI", "optimisticAI Fallback", "HarmonyOS Sans SC", sans-serif; }
+  .n { font-family:"optimisticAI", "optimisticAI Fallback", "Noto Sans CJK SC", sans-serif; }
+  .d { font-family:"optimisticAI", "optimisticAI Fallback", "Droid Sans Fallback", sans-serif; }
+  .badge { display:inline-block; margin-top:6px; font-size:11.5px; padding:2px 8px; border-radius:var(--pill);
+           background:var(--blue-tint); color:var(--blue-solid); }
+</style></head><body>
+  <div class="top">
+    <div class="brand-lockup">
+      <img src="../muse-logo.svg" alt="Muse" width="30" height="30">
+      <div class="wordmark" style="font-size:19px">Muse</div>
+    </div>
+    <div class="eyebrow">CJK typefaces · same size, same weight</div>
+  </div>
+
+  <h1>One sentence, three local Chinese faces — the Latin stays Optimistic AI</h1>
+
+  <div class="rows">
+    <div class="row">
+      <div class="fname"><b>HarmonyOS Sans SC</b>Huawei's HarmonyOS sans · Medium (500)<span>local: ~/.local/share/fonts</span>
+        <div class="badge">recommended: closest in feel to the official Optimistic AI</div></div>
+      <div class="sample h">Muse, 智能 AI 为你省钱</div>
+    </div>
+    <div class="row">
+      <div class="fname"><b>Noto Sans CJK SC</b>Source Han Sans · Medium<span>/usr/share/fonts/opentype/noto</span>
+        <div class="badge">most widely available, clearest open licence</div></div>
+      <div class="sample n">Muse, 智能 AI 为你省钱</div>
+    </div>
+    <div class="row">
+      <div class="fname"><b>Droid Sans Fallback</b>system fallback face<span>Android's default fallback</span></div>
+      <div class="sample d">Muse, 智能 AI 为你省钱</div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div>Latin glyphs use the official Optimistic AI in all three; only the Chinese changes.</div>
+    <div class="repo">github.com/doforu-labs/muse-agent-guide</div>
+  </div>
+</body></html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+  /* Chinese card: Latin glyphs still use the official Optimistic AI, Chinese falls back to the chosen CJK face */
+  :root { --font-brand: "optimisticAI", "optimisticAI Fallback", "HarmonyOS Sans SC", "Noto Sans CJK SC", system-ui, sans-serif; }
+  body { width:1280px; height:640px; padding:56px 72px; display:flex; flex-direction:column; justify-content:space-between; position:relative; overflow:hidden; }
+  .bar { position:absolute; top:0; left:0; right:0; height:6px; background:var(--brand-gradient); }
+  h1 { font-size:var(--h1-size); font-weight:var(--h1-weight); line-height:1.12; letter-spacing:-0.01em; margin-top:22px; }
+  .h1-sub { font-size:27px; font-weight:500; letter-spacing:0; color:var(--blue-solid); margin-top:14px; }
+  .h1-sub b { font-weight:500; background:var(--blue-tint); border-radius:6px; padding:2px 8px; }
+  .sub { font-size:18px; line-height:1.6; color:var(--text-secondary); margin-top:14px; max-width:940px; }
+  .stats { display:flex; gap:12px; }
+</style></head><body>
+  <div class="bar"></div>
+
+  <div>
+    <div class="brand-lockup">
+      <img src="../muse-logo.svg" alt="Muse" width="46" height="46">
+      <div>
+        <div class="wordmark">Muse</div>
+        <div class="kicker">Meta 的个人 AI 智能体</div>
+      </div>
+    </div>
+    <h1>Muse, 智能 AI 为你省钱</h1>
+    <div class="h1-sub">整理邮件 · 订餐厅 · 帮你购物 · <b>帮你省钱</b> · 管理日程 · 定制健身计划</div>
+    <div class="sub">独立整理的中文指南:事实带来源、TIME 隐私调查、可自建的开源替代,以及一份手把手自建教程。</div>
+  </div>
+
+  <div class="stats">
+    <div class="chip"><b>400 万</b><span>用户</span></div>
+    <div class="chip"><b>500 万+</b><span>下载</span></div>
+    <div class="chip"><b>第 1</b><span>美区 App Store</span></div>
+    <div class="chip"><b>15+</b><span>连接器</span></div>
+    <div class="chip"><b>MIT</b><span>开源替代</span></div>
+  </div>
+
+  <div class="foot">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span class="pill">github.com/doforu-labs/muse-agent-guide</span>
+      <span class="pill ghost">English included</span>
+    </div>
+    <div>核实于 2026-10-08</div>
+  </div>
+</body></html>

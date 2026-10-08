@@ -1,0 +1,84 @@
+# 资源大全
+
+> 分类整理,Muse(个人 AI Agent)相关。每条注明类型;星数为 2026-10-08 抓取值。
+> 链接由后台任务定期抽查存活(见仓库更新日志)。
+
+## 1. 官方一手来源
+
+| 资源 | 说明 |
+|---|---|
+| [Introducing Muse(公告)](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) | 发布通稿,含产品定位、Secure VM、支付与隐私设计 |
+| [ai.meta.com/muse](https://ai.meta.com/muse/) | 官方产品页:功能、FAQ、下载入口 |
+| [muse.ai](https://muse.ai/) | 网页端入口 |
+| `introducing.muse.ai` | 官方《How We Designed Muse》:设计思路 |
+| `security.muse.ai` | 官方《How We Built Safety Into Muse》:安全与隐私工程 |
+| [Muse Spark 1.3 模型博客](https://research.meta.ai/blog/introducing-muse-spark-1-3) | 底层模型说明(为 agentic 任务打造) |
+| [Muse Code](https://dev.meta.ai/products/muse-code) | 面向编程工作流的同系列产品 |
+| [权限设置帮助页](https://www.meta.com/help/1385290430137537/) | 逐项调整每个连接 App 的权限 |
+| [Link 购买保护范围](https://support.link.com/questions/what-s-covered-with-protections) | 官方说明:丢件/损坏、降价补差、免退货费 |
+| [muse.ai/business](https://muse.ai/business) | 官方《Muse for Small Business》页:连接器清单 + 可用地区/定价 FAQ(2026-10-08 核验 200) |
+| [Muse for Small Business 公告](https://about.fb.com/news/2026/09/introducing-muse-small-business/) | 2026-09-29 官方博客:给已有 Muse 加"new skills and connectors" |
+| [连接器合作申请](https://muse.ai/platform) | 官方:合作伙伴接入入口 |
+| [自定义连接器说明](https://www.meta.com/help/artificial-intelligence/1687253048996149/) | 官方帮助中心:接入尚未支持的服务 |
+| [订阅方案](https://www.meta.com/help/subscriptions/1021145227643680/) | 官方帮助中心:免费额度与订阅档 |
+| [App Store](https://apps.apple.com/us/app/muse-from-meta/id6760173601) · [Google Play](https://play.google.com/store/apps/details?id=com.facebook.aura) | 客户端下载 |
+
+## 2. 一手调查与深度报道
+
+| 资源 | 为什么值得读 |
+|---|---|
+| [TIME:Muse Is Building a Dossier On You](https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/) | **最该读的一篇**。基于 Muse 内部指令的分析:每小时人物档案、夜间分析、"忘记"的边界 |
+| The Information:Muse 周活突破 300 万 | 用户增长数据的一手信源(TIME 文中引用) |
+| Meta 官方 FAQ(产品页内) | agent / assistant / chatbot 的定义区分,官方原话 |
+| [Ginger Labs:Muse 能力与用法](https://gingerlabs.ai/blog/meta-muse-agent-capabilities-and-how-to-use-it) | 第三方上手整理 |
+| [Manager Today:Muse 是什么、怎么用](https://www.managertoday.com.tw/articles/view/72980) | 繁体中文:5 个官方应用情境 + 免费额度与付费方案 |
+| YouTube:《自带云端电脑的 AI Agent 来袭!Meta Muse 详细注册与实测》 | 中文实测流程(注册到实际用) |
+| YouTube:《10 個實用玩法一次看》 | 实测玩法集合(社交发布、找家具、订餐厅等) |
+
+## 3. 开源生态(可直接跑的同类实现)
+
+### 最接近 Muse 的开源替代
+
+- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.2k · MIT · TypeScript
+  个人 agent 应用,**自带 agent 电脑**:持久 Chromium + 可选 Linux 工作区;自建 server / task worker / browser worker;支持任意 agent harness;有 iOS / Android / Web 三端(React Native)。仓库内有 `docs/VERIFICATION.md`(什么被验证过)和 `ROADMAP.md`(什么还没做:图形桌面、自动结账)。
+- **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★15.9k · Python
+  开源 agent harness,内置个人 agent(Ohmo)。
+
+### 生态周边(围绕 Muse 本身的工具)
+
+| 项目 | ★ | 用途 |
+|---|---|---|
+| [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | 统一管理 Claude Code / Codex / Muse 的 agent 集群 |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | 一条消息把 Claude Code 部署到你的 Muse VM |
+| [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | 23 个 Muse agent skill + 决策层 |
+| [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | 跨会话保留上下文的个人 agent |
+| [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | 中文知识库助手 |
+| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 硬件方向实验 |
+
+### 明确不收的
+
+**命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**的仓库一律不收 —— 那是推广,不是生态项目。
+
+- 2026-10-08 用 GitHub API 复核:[`Git-FED/museAi-Chat`](https://github.com/Git-FED/museAi-Chat) —— ★2、1 fork、许可 *NOASSERTION*(即无许可)、topics 写着 `do not touch`;描述与 README 以邀请码开头(`5F2V31` → `muse.ai/join`),同一账号约 20 个仓库都印着同一个码。**故不收录**;看门狗每轮仍会把它当"新仓库"报出来,这条就是答复。
+
+### 话题与索引
+
+- GitHub Topics:[`muse-code`](https://github.com/topics/muse-code) · [`muse-spark`](https://github.com/topics/muse-spark)
+- 构建 agent 的基础设施:[CopilotKit](https://github.com/CopilotKit) · AG-UI 协议(openmuse 用它做事件流)
+
+## 4. 想自己搭一个"个人 agent"?推荐路径
+
+1. 先读 **openmuse** 的架构(server + worker + persistent Chromium),理解"agent 电脑"怎么落地;
+2. 对照 **OpenHarness** 看 harness 层怎么抽象;
+3. 明确你的**边界**:哪些动作必须人工批准(付款、发信、连新 App)——Muse 把这一点做成了产品级默认;
+4. 决定**数据去向**:本地跑还是云 VM。Muse 的 Confidential VM 未上线前,自托管是隐私上限更高的选择。
+
+## 5. 中文资料现状(机会点)
+
+截至 2026-10-08,**中文系统整理几乎为零**:能搜到的主要是短视频实测与零散报道,缺少「官方事实 + 争议梳理 + 生态清单 + 数据来源」四件套。本仓库即为填补这一空白而建。
+
+---
+
+**收录标准**:必须与"Muse / 个人 agent"直接相关,且能打开。发现失效链接或有更好的资源,欢迎提 Issue。
+
+**存活抽查**:2026-10-08 本轮用 `curl -sI/-sL` 抽查了本文件全部外链(200/301/302 通过);`RomanSlack/Meta_Muse_Agent_System_Prompt` 已 404(GitHub API 与网页均返回 404),故移除。星数与许可来自 `gh api graphql`(见 [`data.md`](data.md))。

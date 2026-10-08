@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+  :root { --font-brand: "optimisticAI", "optimisticAI Fallback", "HarmonyOS Sans SC", "Noto Sans CJK SC", system-ui, sans-serif; }
+  body { width:1400px; height:3860px; background:var(--page-bg); position:relative; overflow:hidden; }
+  .bar { position:absolute; top:0; left:0; right:0; height:8px; background:var(--brand-gradient); }
+  .sec { padding:64px 88px; }
+  .sec + .sec { border-top:1px solid var(--border); }
+
+  /* hero */
+  .hero { padding:72px 88px 60px; }
+  h1 { font-size:78px; font-weight:500; line-height:1.06; letter-spacing:-0.022em; margin-top:34px; }
+  .zh { font-size:40px; font-weight:500; color:var(--blue-solid); margin-top:14px; letter-spacing:0.01em; }
+  .lede { font-size:22px; line-height:1.55; color:var(--text-secondary); margin-top:20px; max-width:1140px; }
+  .stats { display:flex; gap:14px; margin-top:34px; }
+  .chip b { font-size:34px; }
+
+  /* uses grid */
+  .ugrid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:30px; }
+  .ucard { background:#fff; border:1px solid var(--border); border-radius:var(--radius-card); padding:18px; }
+  .ucard .em { display:block; font-size:22px; margin-bottom:8px; }
+  .ucard b { display:block; font-size:17px; font-weight:500; margin-bottom:7px; letter-spacing:-0.005em; }
+  .ucard i { display:block; font-style:normal; font-size:13.5px; line-height:1.46; color:var(--text-secondary); }
+
+  /* section headers */
+  .kicker { font-size:14px; font-weight:500; letter-spacing:1.8px; text-transform:uppercase; color:var(--blue-solid); }
+  h2 { font-size:44px; font-weight:500; line-height:1.14; letter-spacing:-0.018em; margin-top:12px; }
+  h2 em { font-style:normal; color:var(--blue-solid); }
+  .note { font-size:18px; line-height:1.6; color:var(--text-secondary); margin-top:14px; max-width:1180px; }
+
+  /* cards row */
+  .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:34px; }
+  .card { padding:26px 24px; }
+  .card h3 { font-size:22px; font-weight:500; margin-bottom:10px; letter-spacing:-0.01em; }
+  .card p { font-size:16px; line-height:1.6; color:var(--text-secondary); }
+  .card.tint { background:var(--blue-tint); border-color:var(--blue-soft); }
+  .card.tint h3 { color:var(--blue-solid); }
+
+  /* timeline */
+  .tl { position:relative; margin-top:52px; height:2px; background:var(--brand-gradient); }
+  .tl-stops { display:grid; grid-template-columns:repeat(4,1fr); }
+  .tl .stop { padding-right:26px; }
+  .tl .dot { width:20px; height:20px; border-radius:50%; background:#fff; border:3px solid var(--blue-solid); margin-top:-10px; }
+  .tl .stop.warn .dot { border-color:#E8590C; }
+  .tl .date { margin-top:26px; font-size:16px; font-weight:500; color:var(--blue-solid); }
+  .tl .stop.warn .date { color:#E8590C; }
+  .tl .t { margin-top:10px; font-size:25px; font-weight:500; line-height:1.26; letter-spacing:-0.012em; }
+  .tl .d { margin-top:12px; font-size:16px; line-height:1.58; color:var(--text-secondary); }
+
+  /* records */
+  .rec { margin-top:32px; display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .rec .box { padding:26px 26px; border-radius:var(--radius-card); }
+  .rec .box h4 { font-size:20px; font-weight:500; margin-bottom:12px; }
+  .rec .box ul { list-style:none; }
+  .rec .box li { font-size:16px; line-height:1.62; color:var(--text-secondary); padding-left:18px; position:relative; margin-bottom:9px; }
+  .rec .box li::before { content:""; position:absolute; left:0; top:9px; width:7px; height:7px; border-radius:50%; background:var(--blue-solid); }
+  .rec .warn { border-left:3px solid #E8590C; border-radius:0 var(--radius-card) var(--radius-card) 0; }
+  .rec .warn h4 { color:#C2410C; }
+  .rec .warn li::before { background:#E8590C; }
+
+  /* ecosystem bars */
+  .bars { margin-top:32px; display:flex; flex-direction:column; gap:16px; }
+  .bar-row { display:grid; grid-template-columns:330px 1fr 110px; align-items:center; gap:20px; }
+  .bar-row .nm { font-size:20px; font-weight:500; }
+  .bar-row .nm em { display:block; font-size:14px; font-style:normal; color:var(--text-secondary); margin-top:3px; }
+  .bar-row .trk { height:30px; background:var(--surface-muted); border-radius:var(--pill); overflow:hidden; }
+  .bar-row .fl { height:100%; border-radius:var(--pill); background:var(--brand-gradient); }
+  .bar-row .fl.dim { background:linear-gradient(135deg,#BBD9FF,#7CC9FF); }
+  .bar-row .vl { font-size:23px; font-weight:500; text-align:right; font-variant-numeric:tabular-nums; }
+
+  /* cta */
+  .cta { padding:52px 88px; background:var(--text-primary); color:#fff; }
+  .cta h2 { color:#fff; margin-top:0; font-size:38px; }
+  .cta h2 em { color:var(--blue-soft); }
+  .cta .row2 { display:flex; justify-content:space-between; align-items:center; margin-top:26px; }
+  .cta .url { font-size:22px; font-weight:500; }
+  .cta .sm { font-size:17px; color:rgba(255,255,255,.62); }
+  .cta .pills { display:flex; gap:12px; margin-top:22px; }
+  .cta .p { border-radius:var(--pill); padding:9px 18px; font-size:14.5px; font-weight:500;
+            background:rgba(255,255,255,.12); color:#fff; }
+  .cta .p.solid { background:#fff; color:var(--text-primary); }
+</style></head><body>
+  <div class="bar"></div>
+
+  <!-- 1. HERO -->
+  <div class="sec hero">
+    <div class="brand-lockup">
+      <img src="../muse-logo.svg" alt="Muse" width="62" height="62">
+      <div>
+        <div class="wordmark" style="font-size:34px">Muse</div>
+        <div class="kicker">Meta's personal AI agent · verified · 2026-10-08</div>
+      </div>
+    </div>
+    <h1>Muse, the personal agent</h1>
+    <div class="zh">智能 AI 为你省钱 —— 它做了什么,又记录了什么</div>
+    <div class="lede">An independent, source-cited guide: what Muse is, how to use it, the TIME privacy investigation, open-source alternatives you can run yourself, and a step-by-step build path. 全部事实带来源与抓取日期。</div>
+    <div class="stats">
+      <div class="chip"><b>4M</b><span>users</span></div>
+      <div class="chip"><b>5M+</b><span>downloads</span></div>
+      <div class="chip"><b>#1</b><span>US App Store</span></div>
+      <div class="chip"><b>15+</b><span>connectors</span></div>
+      <div class="chip"><b>MIT</b><span>open alternatives</span></div>
+    </div>
+  </div>
+
+  <!-- 2. USES -->
+  <div class="sec">
+    <div class="kicker">Start here · 30+ recipes</div>
+    <h2>What you can ask it for — <em>and how to phrase it</em></h2>
+    <div class="ugrid">
+      <div class="ucard"><span class="em">💸</span><b>Cut recurring spend</b><i>"Find every recurring charge in my email, total by month, list what to cancel first — don't cancel anything yet."</i></div>
+      <div class="ucard"><span class="em">✉️</span><b>Tame email</b><i>"Every weekday 8am: sort unread into needs-me / waiting / FYI. Draft replies for the first group, don't send."</i></div>
+      <div class="ucard"><span class="em">🍽</span><b>Book with constraints</b><i>"Table for 4, Friday ~7pm, quiet, 20-min walk, vegetarian. Show me options first."</i></div>
+      <div class="ucard"><span class="em">✈️</span><b>Survive a cancellation</b><i>"Find the earliest alternative, tell me the cost difference, wait for my go-ahead."</i></div>
+      <div class="ucard"><span class="em">🛒</span><b>Shop without regret</b><i>"Rank these three by total cost to my address. Don't order."</i></div>
+      <div class="ucard"><span class="em">📅</span><b>Defend your calendar</b><i>"Protect 2h of focus time every morning; move conflicts and tell me what you moved."</i></div>
+      <div class="ucard"><span class="em">🏋️</span><b>Actually keep a plan</b><i>"3 days/week for 6 weeks around my calendar, adapting to what I actually completed."</i></div>
+      <div class="ucard"><span class="em">🏢</span><b>Weekly revenue recap</b><i>"Mondays 8am: last week's Stripe + Shopify revenue, top 5 products, anything down >20%."</i></div>
+      <div class="ucard"><span class="em">📚</span><b>Research with citations</b><i>"10 sources on X, one line each on why it's credible, flag anything you couldn't verify."</i></div>
+    </div>
+    <div class="note" style="margin-top:26px">Every recipe here is quoted from <b>uses.md</b>, tagged by source ([official] / [connector] / [pattern]) — plus the five rules that make any agent work, permission setup, and what it gets wrong.</div>
+  </div>
+
+  <!-- 3. WHAT IT IS -->
+  <div class="sec">
+    <div class="kicker">What it is</div>
+    <h2>Not a chatbot — a computer <em>that does the work</em></h2>
+    <div class="note">Muse runs on a per-user <b>Muse Secure VM</b>: an isolated Linux box with a full browser, reachable from the app, WhatsApp or the web. You give goals; it returns when something changed or when it needs your approval.</div>
+    <div class="cards">
+      <div class="card tint">
+        <h3>Muse Secure VM</h3>
+        <p>One isolated machine per user, with a full browser. Other users' agents cannot reach it. You can take over the same machine at any time.</p>
+      </div>
+      <div class="card">
+        <h3>Agent + Sentinel</h3>
+        <p>Muse Spark 1.3 plans and browses. A second, system-level isolated agent (Sentinel) gates every outbound action before it reaches the internet.</p>
+      </div>
+      <div class="card">
+        <h3>15+ connectors</h3>
+        <p>Slack, Stripe, Shopify, QuickBooks, Notion, Zoom and more — plus Facebook, Instagram and Meta ads. Payments run on Link's one-time-use card.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. TIMELINE -->
+  <div class="sec">
+    <div class="kicker">Chronology</div>
+    <h2>Capability and data collection <em>shipped together</em></h2>
+    <div class="tl"></div>
+    <div class="tl-stops">
+      <div class="stop">
+        <div class="dot"></div><div class="date">2026-09-08</div>
+        <div class="t">Meta announces Muse</div>
+        <div class="d">"The world's first personal AI agent built for everyone." Secure VM, Muse Spark 1.3, Stripe Link protections, US rollout.</div>
+      </div>
+      <div class="stop">
+        <div class="dot"></div><div class="date">2026-09-29</div>
+        <div class="t">Muse for Small Business</div>
+        <div class="d">15+ corporate connectors. Availability confirmed: US + Canada, 18 and over.</div>
+      </div>
+      <div class="stop warn">
+        <div class="dot"></div><div class="date">2026-10-06</div>
+        <div class="t">TIME publishes its investigation</div>
+        <div class="d">Hourly dossiers on you and the people you mention. Non-users mapped through others' agents. "Forget" has limits.</div>
+      </div>
+      <div class="stop">
+        <div class="dot"></div><div class="date">2026-10-08</div>
+        <div class="t">This snapshot</div>
+        <div class="d">Availability, connector list and dates re-verified from primary sources; ecosystem stars captured from the GitHub API.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. WHAT IT RECORDS -->
+  <div class="sec">
+    <div class="kicker">The part most coverage skips</div>
+    <h2>What it records — <em>and where the human stops it</em></h2>
+    <div class="rec">
+      <div class="card box warn" style="background:#fff;border-color:var(--border)">
+        <h4>What it records (TIME, 2026-10-06)</h4>
+        <ul>
+          <li><b>An hourly dossier</b> on you and everyone you mention — how you met, shared interests, disputes, "tensions and alliances".</li>
+          <li><b>Non-users are in the data.</b> They get mapped through other people's agents.</li>
+          <li><b>Nightly analysis</b> of the day's conversations; cross-VM "shared lessons" (Meta: de-identified).</li>
+          <li><b>"Forget" has edges:</b> it does not guarantee the original message disappears.</li>
+        </ul>
+      </div>
+      <div class="card box" style="background:var(--blue-tint);border-color:var(--blue-soft)">
+        <h4 style="color:var(--blue-solid)">Where the human stops it</h4>
+        <ul>
+          <li><b>Approval gates</b> before sending, paying, or connecting a new app.</li>
+          <li><b>Per-connection permissions</b>, instant disconnect, audit trail, VM file export.</li>
+          <li><b>No training on your data</b> (opt-out is the default state, per Meta).</li>
+          <li><b>Confidential VM</b> (user-held encryption key) is announced — <b>not shipped</b> as of 2026-10-08.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. ECOSYSTEM -->
+  <div class="sec">
+    <div class="kicker">Build it yourself</div>
+    <h2>The open-source ecosystem <em>vs. Muse</em></h2>
+    <div class="bars">
+      <div class="bar-row"><div class="nm">HKUDS/OpenHarness<em>Python · MIT · open agent harness</em></div>
+        <div class="trk"><div class="fl" style="width:100%"></div></div><div class="vl">15,919</div></div>
+      <div class="bar-row"><div class="nm">CopilotKit/openmuse<em>TypeScript · MIT · closest open equivalent</em></div>
+        <div class="trk"><div class="fl" style="width:51.4%"></div></div><div class="vl">4,204</div></div>
+      <div class="bar-row"><div class="nm">avirtual/clodex<em>JavaScript · Apache-2.0 · agent fleets</em></div>
+        <div class="trk"><div class="fl" style="width:8.8%"></div></div><div class="vl">124</div></div>
+      <div class="bar-row"><div class="nm">Wode44398/muse-bridge<em>TypeScript · MIT · deploy onto your Muse VM</em></div>
+        <div class="trk"><div class="fl dim" style="width:3%"></div></div><div class="vl">13</div></div>
+      <div class="bar-row"><div class="nm">+ 4 more projects<em>esp32 agent · muse-skills · persistent-context agents</em></div>
+        <div class="trk"><div class="fl dim" style="width:2%"></div></div><div class="vl">5–21</div></div>
+    </div>
+    <div class="note">Star counts are the <b>2026-10-08</b> GitHub API snapshot (bar length ∝ √stars). The full table, licences and a build walkthrough are in the README and <b>build-your-own-agent.md</b>.</div>
+  </div>
+
+  <!-- 6. CTA -->
+  <div class="cta">
+    <h2>Every number dated, every claim sourced. <em>Read the guide.</em></h2>
+    <div class="row2">
+      <div class="url">github.com/doforu-labs/muse-agent-guide</div>
+      <div class="sm">English default · Chinese included · MIT</div>
+    </div>
+    <div class="pills">
+      <span class="p solid">README</span>
+      <span class="p">data.md</span>
+      <span class="p">timeline.md</span>
+      <span class="p">resources.md</span>
+      <span class="p">build-your-own-agent.md</span>
+    </div>
+  </div>
+</body></html>

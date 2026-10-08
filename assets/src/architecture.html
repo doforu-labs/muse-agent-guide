@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="brand.css"><style>
+  body { width:1400px; height:700px; padding:44px 60px; display:flex; flex-direction:column; }
+  .top { display:flex; justify-content:space-between; align-items:center; padding-bottom:18px; border-bottom:1px solid var(--border); }
+  h1 { font-size:34px; font-weight:var(--h2-weight); line-height:1.15; letter-spacing:-0.015em; margin-top:24px; }
+  h1 em { font-style:normal; color:var(--blue-solid); }
+  .flow { display:grid; grid-template-columns:250px 46px 1fr 46px 250px; align-items:center; margin-top:38px; }
+  .box { border:1px solid var(--border); border-radius:var(--radius-card); padding:20px 18px; background:var(--surface); }
+  .box h3 { font-size:18px; font-weight:500; margin-bottom:9px; letter-spacing:-0.01em; }
+  .box p { font-size:13.5px; color:var(--text-secondary); line-height:1.55; }
+  .vm { border:1.5px solid var(--blue-soft); background:var(--blue-tint); padding:20px; border-radius:var(--radius-card); }
+  .vm > h3 { color:var(--blue-solid); font-size:19px; font-weight:500; margin-bottom:5px; }
+  .vm > .sub { font-size:13px; color:var(--text-secondary); margin-bottom:14px; }
+  .inner { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .inner .box { background:#fff; border-color:var(--blue-soft); }
+  .inner .box h3 { font-size:16px; }
+  .arrow { text-align:center; color:var(--blue-soft); font-size:26px; }
+  .notes { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:34px; }
+  .note { border:1px solid var(--border); border-left:3px solid var(--blue-solid); background:var(--surface);
+          padding:17px 19px; border-radius:0 var(--radius-card) var(--radius-card) 0; }
+  .note.warn { border-left-color:#E8590C; }
+  .note h4 { font-size:16px; font-weight:500; margin-bottom:8px; }
+  .note.warn h4 { color:#C2410C; }
+  .note p { font-size:14px; color:var(--text-secondary); line-height:1.6; }
+</style></head><body>
+  <div class="top">
+    <div class="brand-lockup">
+      <img src="../muse-logo.svg" alt="Muse" width="34" height="34">
+      <div class="wordmark" style="font-size:21px">Muse</div>
+    </div>
+    <div class="eyebrow">How it is described to work</div>
+  </div>
+
+  <h1>Its own computer, <em>and hourly notes on you</em></h1>
+
+  <div class="flow">
+    <div class="box">
+      <h3>You</h3>
+      <p>App (iOS/Android), <b>WhatsApp</b>, or muse.ai. You give goals, approve actions, and can take over the same machine.</p>
+    </div>
+    <div class="arrow">→</div>
+    <div class="vm">
+      <h3>Muse Secure VM</h3>
+      <div class="sub">An isolated Linux box per user, with a full browser. Other users' agents cannot reach it.</div>
+      <div class="inner">
+        <div class="box">
+          <h3>Muse agent</h3>
+          <p>Muse Spark 1.3. Plans, browses, fills forms, checks out, keeps working after you close the app.</p>
+        </div>
+        <div class="box">
+          <h3>Sentinel</h3>
+          <p>System-level isolation. Nothing the agent does reaches the internet unless Sentinel allows it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">→</div>
+    <div class="box">
+      <h3>The web &amp; your apps</h3>
+      <p>Email, shopping, travel, Slack, Shopify, Stripe, QuickBooks — 15+ connectors. Payments via Link's one-time-use card.</p>
+    </div>
+  </div>
+
+  <div class="notes">
+    <div class="note warn">
+      <h4>What it records (TIME, 2026-10-06)</h4>
+      <p>An <b>hourly dossier</b> on you and the people you mention — how you met, shared interests, disputes, “tensions and alliances”. Non-users get mapped through other people's agents. Nightly analysis; cross-VM “shared lessons”. Asking it to forget does not guarantee the original message disappears.</p>
+    </div>
+    <div class="note">
+      <h4>Where the human stops it</h4>
+      <p>Approval gates before <b>sending, paying, or connecting a new app</b>; per-connection permission levels; instant disconnect; audit trail; VM file export. A Confidential VM (whole-VM encryption, user-held key) is <b>announced, not shipped</b>.</p>
+    </div>
+  </div>
+
+  <div class="foot" style="margin-top:auto">
+    <div>Schematic from Meta's public description + TIME's reporting — not an official diagram.</div>
+    <div class="repo">github.com/doforu-labs/muse-agent-guide</div>
+  </div>
+</body></html>

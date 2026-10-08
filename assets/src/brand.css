@@ -1,0 +1,83 @@
+/* ============================================================================
+   Brand-aligned design tokens — Muse (muse.ai)
+   All values below were MEASURED with CDP from the official page
+   (getComputedStyle on body / h1 / h2 / primary button), 2026-10-08.
+   Source values are recorded next to each token so this file can be re-verified.
+   ========================================================================== */
+
+:root {
+  /* Surfaces & text — measured */
+  --page-bg:        #FCFCFC;                  /* body background-color: rgb(252,252,252) */
+  --surface:        #FFFFFF;                  /* cards on top of the page background */
+  --surface-muted:  #F3F4F5;                  /* --fill-tertiary: #f3f4f5 */
+  --text-primary:   #111112;                  /* body color: rgb(17,17,18) */
+  --text-secondary: rgba(0, 4, 9, 0.59);      /* p color: rgba(0,4,9,0.59) */
+  --text-tertiary:  rgba(0, 4, 9, 0.38);
+  --border:         rgba(0, 0, 0, 0.10);      /* computed border-color */
+  --border-strong:  rgba(0, 0, 0, 0.16);
+
+  /* Brand blue — measured */
+  --blue-solid:     color(srgb 0 0.352941 0.748235);  /* primary button, verbatim serialization from getComputedStyle */
+  --blue-strong:    #0088FF;                  /* --hatch-accent-gradient-end: #08f */
+  --blue-soft:      #7CC9FF;                  /* --hatch-accent-gradient-start: #7cc9ff */
+  --blue-tint:      #ECF3FF;                  /* FDS --fds-blue-05 */
+  --brand-gradient: linear-gradient(135deg, #7CC9FF 0%, #0088FF 100%);
+
+  /* Type — measured */
+  --font-brand: "optimisticAI", "optimisticAI Fallback", Optimistic, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans CJK SC", "Noto Sans", sans-serif;
+  --font-mono: "optimisticMono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --h1-size: 62.445px;    --h1-weight: 500;   --h1-lh: 1.1;    --h1-ls: -0.01em;
+  --h2-size: 40px;        --h2-weight: 500;   --h2-lh: 1.15;
+  --body-size: 16px;      --body-lh: 1.5;
+  --small-size: 14px;     --caption-size: 12px;
+
+  --pill: calc(infinity * 1px);   /* matches the official primary button: computed 3.35544e+07px (fully rounded) */
+  --radius-card: 16px;
+  --radius-chip: 10px;
+}
+
+/* ---- base ---------------------------------------------------------------- */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--page-bg);
+  color: var(--text-primary);
+  font-family: var(--font-brand);
+  font-size: var(--body-size);
+  line-height: var(--body-lh);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- shared components --------------------------------------------------- */
+.brand-lockup { display: flex; align-items: center; gap: 12px; }
+.brand-lockup img { display: block; }
+.brand-lockup .wordmark { font-size: 26px; font-weight: 500; letter-spacing: -0.01em; color: var(--text-primary); }
+.brand-lockup .kicker { font-size: 13px; color: var(--text-secondary); letter-spacing: .2px; }
+
+.eyebrow { font-size: 13.5px; font-weight: 500; letter-spacing: 1.6px; text-transform: uppercase; color: var(--blue-solid); }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 7px;
+  height: 36px; padding: 0 16px; border-radius: var(--pill);
+  background: var(--blue-solid); color: #fff;
+  font-size: 14px; font-weight: 500; line-height: 20px;
+}
+.pill.ghost { background: var(--surface); color: var(--text-primary); border: 1px solid var(--border); }
+.pill.tint  { background: var(--blue-tint); color: var(--blue-solid); }
+
+.chip {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius-chip); padding: 14px 20px;
+}
+.chip b { display: block; font-size: 30px; font-weight: 500; letter-spacing: -0.02em; color: var(--text-primary); }
+.chip span { font-size: 13px; color: var(--text-secondary); }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-card); }
+
+.foot { display: flex; justify-content: space-between; align-items: center;
+        border-top: 1px solid var(--border); padding-top: 16px;
+        font-size: 13px; color: var(--text-secondary); }
+.foot .repo { font-family: var(--font-mono); font-size: 12.5px; color: var(--text-primary); }
+
+/* Trademark note: the Muse name and logo are Meta's; used here for identification. */
