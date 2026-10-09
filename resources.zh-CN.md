@@ -108,6 +108,10 @@
 
 - 仅关键词命中、与 Muse 无关,已于 2026-10-09 用 GitHub API 核对:[`HuXinyao-sdu/museum-agent-disability`](https://github.com/HuXinyao-sdu/museum-agent-disability) — ★0 · HTML · 无 licence,创建于 2026-09-16、最后推送 2026-10-09、5 次提交、1 KB、无 topic。其描述为「华夏珍宝数字博物馆」,仓库内容只有 `.gitignore`、`3d-museum/` 与 `README.md`,README 第一行就是仓库名与同一句博物馆简介。它命中的是 "museum" 里的 "muse",与 Muse 无任何关系。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
 
+- 仅关键词命中、与 Muse 无关,已于 2026-10-09 用 GitHub API 核对:[`jajaneo11/musethebull`](https://github.com/jajaneo11/musethebull) — ★0 · 无 licence · 无 topic,创建于 2026-10-09T08:55Z,最后推送 2026-10-09T09:05Z。它的描述与整份 `README.md` 都是同一行:*"MUSETHEBULL — autonomous AI roast agent landing page. @musethebull on X."* —— "Muse" 只出现在用户名 `musethebull` 里,仓库中没有任何 Muse 产品、工具或集成。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
+
+- 命名撞车(非 Meta Muse),已于 2026-10-09 用 GitHub API 核对:[`danbuildss/musecourt`](https://github.com/danbuildss/musecourt) — ★1 · 无 licence,创建于 2026-09-25、最后推送 2026-10-09、无 topic。它是一个做得不小的「自治 agent 法庭」(立案、举证、辩论、判决),有确定性的法庭引擎、REST API、MCP server 与自治基准 —— 但它的 "Muse" 指的是 **Museworld**(`museworld.lol`)这座独立小岛游戏里的 agent;该站自己的 `llms.txt` 逐字写着 *"This is a custom game API, not an official Meta connector."* 其 `notes.md` 写的是 *"a court for Muse agents inside Museworld"* 与 *"Even Muses need lawyers."* 这里的 "muse" 是另一个项目的用词,不是 Meta 的 Muse。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
+
 ## 4. 想自己搭一个"个人 agent"?推荐路径
 
 1. 先读 **openmuse** 的架构(server + worker + persistent Chromium),理解"agent 电脑"怎么落地;
