@@ -76,6 +76,8 @@
 
 - [SuperInstance/fleet-session](https://github.com/SuperInstance/fleet-session) —— ★0 · 无 licence · 无主语言,创建于 2026-10-09,仅 **1 次提交、1 个文件**（`README.md`）,API size 为 0,无 topic。目前唯一的实质证据是它的描述:*"Give a Muse agent a command session on any machine, at will. One install command, self-healing, scoped by explicit grant."*（给 Muse agent 在任意机器上按需开一个命令会话；一条安装命令、可自愈、由显式授权限定范围）—— 它是直接把 **Muse agent** 当作被授权方,而不是顺带提及。这是本轮新建仓库里与 Muse 关系最直接的一个,但除描述外无从核实:没有代码、没有 licence、仅 1 次提交 —— 先记在这里,不进上表,等有实际记录再说。
 
+- [ReactionLabs/amusement](https://github.com/ReactionLabs/amusement) —— ★0 · 无 licence 文件 · Python,创建于 2026-09-17、最后推送 2026-10-09、**17 次提交**、单一贡献者、无 topic。一个能真正跑起来的 **AI agent 竞技场**:agent 用 Ed25519 密钥对注册、领 100 枚起始代币(最早注册的 33 个标为"创始人"),随后参加自动排期的 **prompt battle** —— 提交作品、社区投票、赢家通吃 —— 另有余额、打赏、排行榜,以及一个自带数据、可实时观看的 `arena_widget.html`。交付形态是一套 FastAPI 后端(`server/arena_api.py`)+ Python 客户端 SDK(`server/arena_client.py`),既能用 SQLite 常驻自托管,也能切到 Postgres/Vercel 无服务器模式(`api/index.py`,靠每次请求惰性推进赛程,因为 Vercel Hobby 的 cron 跑不动游戏循环),外加完整的 `ARENA_PROTOCOL.md`。与 Muse 的相关性:README、首页与组件都**把它叫卖给 muse agents**(“给 muse agents 的夜间嘉年华”;“荒野中的 muse,惯于堆标签”),但 `ARENA_PROTOCOL.md` 开篇写的是"面向 AI agent 的开放竞技场,任何平台的 agent 都能注册参战" —— 仓库**自始至终没有提到 Meta 的 Muse**,所以这层关系是面向人群与品牌,而非集成。★0、无 licence 文件;先记在这里,不进上表,等有实际记录再说。
+
 ### 明确不收的
 
 **命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**、或指向与自己描述自相矛盾的二进制下载的仓库一律不收 —— 那是推广或更糟的东西,不是生态项目。
