@@ -58,6 +58,7 @@
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Chinese knowledge-base assistant |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 hardware experiments |
 | [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | Read-only MCP connector built for the [Muse Connector Platform](https://muse.ai/platform): six tools (class-action settlements, CPSC recalls, unused card credits, expiring points, birthday freebies, "what's new"), each also a REST endpoint; MIT · TypeScript · created 2026-09-19, last push 2026-10-08 |
+| [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 129 | Vendor-neutral **session migration across 18 coding-agent harnesses** — Muse Code among them (support added in v0.8.0, 2026-08-25) — via `smigrate transfer` / `smigrate catalog search`; PyPI `session-migrate`, Python 3.11+ on Linux, 324 ordered routes, MIT |
 
 ### Tracked, not yet vetted
 

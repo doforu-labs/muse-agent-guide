@@ -59,6 +59,7 @@
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | 中文知识库助手 |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 硬件方向实验 |
 | [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | 面向 [Muse Connector Platform](https://muse.ai/platform) 的只读 MCP 连接器:六个工具(集体诉讼和解、CPSC 产品召回、未用掉的信用卡权益、到期积分、生日免费赠品、"有什么新东西"),每个同时也是 REST 接口;MIT · TypeScript · 创建于 2026-09-19 |
+| [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 129 | 跨 18 种编码 agent 的**会话迁移工具**(Muse Code 为其中之一,自 v0.8.0 起支持):`smigrate transfer` / `smigrate catalog search`;PyPI `session-migrate`,Python 3.11+ / Linux,324 条有序迁移路径,MIT |
 
 ### 暂记:新出现、未验证
 
