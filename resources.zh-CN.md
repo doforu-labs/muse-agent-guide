@@ -112,6 +112,8 @@
 
 - 命名撞车(非 Meta Muse),已于 2026-10-09 用 GitHub API 核对:[`danbuildss/musecourt`](https://github.com/danbuildss/musecourt) — ★1 · 无 licence,创建于 2026-09-25、最后推送 2026-10-09、无 topic。它是一个做得不小的「自治 agent 法庭」(立案、举证、辩论、判决),有确定性的法庭引擎、REST API、MCP server 与自治基准 —— 但它的 "Muse" 指的是 **Museworld**(`museworld.lol`)这座独立小岛游戏里的 agent;该站自己的 `llms.txt` 逐字写着 *"This is a custom game API, not an official Meta connector."* 其 `notes.md` 写的是 *"a court for Muse agents inside Museworld"* 与 *"Even Muses need lawyers."* 这里的 "muse" 是另一个项目的用词,不是 Meta 的 Muse。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
 
+- 命名撞车(非 Meta Muse),已于 2026-10-09 用 GitHub API 核对:[`Stargazed-Dreamer/MusePlayer`](https://github.com/Stargazed-Dreamer/MusePlayer) — ★0 · Python · licence 归类为 *Other*(`LICENSE` 文件是完整的 34 KB GPL-3.0 全文,但 API 返回 `spdx_id: null`;README 的徽章写的是 GPL-3.0)· 无 topic,创建于 2026-08-11、最后推送 2026-10-09T11:53Z。它是一个基于 PySide6 + PyAV 的本地桌面音乐播放器,主打完整的运行时控制协议:在 `127.0.0.1:43121` 上暴露 JSON Lines 端点、25+ 条命令,按它自己的说法,可被 *"external programs, scripts, automation systems and AI Agents"* 驱动。它也确实带了 `AGENTS.md` 与 `.agents/` 目录 —— 但它的描述、`README.md` 与文件树里没有任何一处提到 Meta 或 Meta 的 Muse;这里的 "Muse" 是音乐女神那个 Muse(歌单格式就叫 `.muse_playlist.json`)。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
+
 ## 4. 想自己搭一个"个人 agent"?推荐路径
 
 1. 先读 **openmuse** 的架构(server + worker + persistent Chromium),理解"agent 电脑"怎么落地;
