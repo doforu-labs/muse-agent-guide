@@ -78,6 +78,12 @@
 
 - [ReactionLabs/amusement](https://github.com/ReactionLabs/amusement) —— ★0 · 无 licence 文件 · Python,创建于 2026-09-17、最后推送 2026-10-09、**17 次提交**、单一贡献者、无 topic。一个能真正跑起来的 **AI agent 竞技场**:agent 用 Ed25519 密钥对注册、领 100 枚起始代币(最早注册的 33 个标为"创始人"),随后参加自动排期的 **prompt battle** —— 提交作品、社区投票、赢家通吃 —— 另有余额、打赏、排行榜,以及一个自带数据、可实时观看的 `arena_widget.html`。交付形态是一套 FastAPI 后端(`server/arena_api.py`)+ Python 客户端 SDK(`server/arena_client.py`),既能用 SQLite 常驻自托管,也能切到 Postgres/Vercel 无服务器模式(`api/index.py`,靠每次请求惰性推进赛程,因为 Vercel Hobby 的 cron 跑不动游戏循环),外加完整的 `ARENA_PROTOCOL.md`。与 Muse 的相关性:README、首页与组件都**把它叫卖给 muse agents**(“给 muse agents 的夜间嘉年华”;“荒野中的 muse,惯于堆标签”),但 `ARENA_PROTOCOL.md` 开篇写的是"面向 AI agent 的开放竞技场,任何平台的 agent 都能注册参战" —— 仓库**自始至终没有提到 Meta 的 Muse**,所以这层关系是面向人群与品牌,而非集成。★0、无 licence 文件;先记在这里,不进上表,等有实际记录再说。
 
+- [dzianisv/hermes-muse](https://github.com/dzianisv/hermes-muse) —— ★0 · MIT · Python,创建于 2026-10-09,**1 次提交**,无 topic。三个仪表盘插件,给一支 **Hermes** agent 团队"与 Meta 的 Muse 助手相同的三个界面":**Goals**(每个 agent 的目标 —— 只读 Hermes 自己的 `state_meta goal:<会话>` 记录)、**Feed**(完成了什么)、**Ideas**(agent 接下来愿意做什么,存于 `~/.hermes/muse.db`),另加五个工具让 agent 读写这些共享界面。README 对借鉴关系毫不含糊 ——*"The UX is copied from Muse's Goals / Feed / Ideas tabs"* —— 也说清了它要补的缺口:上游 Hermes 只在桌面端显示单个会话的目标(`NousResearch/hermes-agent` 有 15 个已开的 goal 相关 PR,没有一个提供跨会话视图),OpenClaw 只有心跳、没有 goals UI。Muse 在此是*设计参照*,不是集成目标 —— 先记在这里,不进上表,等有实际记录再说。
+
+- [madebywelch/guaca](https://github.com/madebywelch/guaca) —— ★39 · AGPL-3.0 · Rust,创建于 2026-08-15、最后推送 2026-10-09,无 topic。一个 macOS **桌面工作台,供一支 AI agent 团队协作**:agent 住在相互隔离的 group 里,各有自己的设置与 MCP 插件,能互相通信、派活、保留记忆与工作笔记,可凭厂商 API key 外借浏览器(Kernel)或一台电脑(E2B),还能被拖到一个已链接的 Git 仓库上。编码后端为 Claude Code、Codex 或 pi,推送与 PR 前设审批闸门。与 Muse 的关系很薄、但如实记录:仓库**描述**写"inspired by Grok Bot & Muse",而 README 的 Credits 只提 Grokbot(*"Inspired by Grokbot, and not a clone of it"*)、**全文未提 Muse** —— 代码里没有 Muse 集成,也没有任何以 Muse 命名的功能。它是凭项目本身被记在这里,不是凭 Muse 关系;不进上表,因为上表收录的是围绕 Muse 构建的工具。
+
+- [nanbada/muse-creative-skills](https://github.com/nanbada/muse-creative-skills) —— ★0 · MIT · 无主语言,创建于 2026-10-09,**2 次提交**。一个韩语优先的**图像与视频制作 skill** 集合(`SKILL.md` 文件),"供 AI agent(Muse、Claude Code 及兼容助手)使用":十个 skill —— `photoreal-realness`(让 AI 照片读起来像真人手机随手拍)、`pose-reference`(133 个姿势)、`museum-editorial`、`second-world`、`phone-shot-video`、`photoreal-selfie-look`、`veo-vertical-clip`、`place-video-prompter`、`ad-video-automation`、`youtube-shorts-growth` —— 用 `npx skills add …` 安装。Muse 被列为这些 skill 面向的 agent 之一,仓库除此外未声称与 Meta 有任何关系;提示词为英文、面向用户的说明跟随用户语言。先记在这里,不进上表,等有实际记录再说。
+
 ### 明确不收的
 
 **命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**、或指向与自己描述自相矛盾的二进制下载的仓库一律不收 —— 那是推广或更糟的东西,不是生态项目。
@@ -85,6 +91,8 @@
 - 2026-10-08 用 GitHub API 复核:[`Git-FED/museAi-Chat`](https://github.com/Git-FED/museAi-Chat) —— ★2、1 fork、许可 *NOASSERTION*(即无许可)、topics 写着 `do not touch`;描述与 README 以邀请码开头(`5F2V31` → `muse.ai/join`),同一账号约 20 个仓库都印着同一个码。**故不收录**;看门狗每轮仍会把它当"新仓库"报出来,这条就是答复。
 
 - 2026-10-08 用 GitHub API 复核:[`mentholated-roll141/Muse-Glimmer`](https://github.com/mentholated-roll141/Muse-Glimmer) —— ★1、1 fork、**无 release**、许可 *NOASSERTION*(`LICENSE` 文件是 MIT,README 却写 Apache-2.0)。README 自称是"Meta 的 30B Muse Glimmer"本地版,但下载按钮指向 `assets/v1.4.zip` —— **487 KB**,而同一页说压缩包"several gigabytes"、模型 15-20 GB —— 排错章节还教用户"如被杀软标记,先临时关闭杀软"。模型名是真的(OpenRouter 有 `meta/muse-glimmer-30b`,Hugging Face 为 `meta-models/Muse-Glimmer-30B`),但这个仓库不是它的实现。**故不收录**;看门狗每轮仍会把它当"新仓库"报出来,这条就是答复。
+
+- 2026-10-09 用 GitHub API 复核:[`rubenurbano/muse-el-agente-ia-gratuito-de-meta`](https://github.com/rubenurbano/muse-el-agente-ia-gratuito-de-meta) —— ★0 · HTML · 无 licence、无描述,创建于 2026-10-09。`README.md` 只有仓库标题一行,主体是一个 117 KB 的 `index.html`:一个西班牙语的 *"Muse AI · Tutorial"* 落地页(云端 agent 7×24 工作、并行 sub-agent 出图、图生视频、接入 WhatsApp —— *"仅对某些国家的用户原生开放"*、*"可通过描述里提供的链接访问"*),其唯一的外部链接是一条带追踪参数的 YouTube 视频(`youtube.com/watch?v=…&is=…`)。它是该账号 **153 个**公开仓库之一,几乎全是按主题命名、成批发布的教程页,用来给视频配套 —— 其中还有两个更早的 Muse/WhatsApp 页面(`meta-muse-y-su-integracion-con-whatsapp`、`agente-ia-de-meta-muse-ai`)。这是靠关键词命中的教程引流页,不是生态项目;**故不收录**。记在这里是为了给看门狗的"新仓库"提醒一个答复。
 
 ### 话题与索引
 
