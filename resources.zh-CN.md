@@ -53,6 +53,7 @@
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | 统一管理 Claude Code / Codex / Muse 的 agent 集群 |
 | [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
 | [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | **非官方** ACP 适配器:在 Zed / VS Code 等 Agent Client Protocol 编辑器里跑 Muse Code(npm `@bex-co/muse-code-acp`) |
+| [BrokkAi/muse-acp](https://github.com/BrokkAi/muse-acp) | 14 | 零依赖的 Rust 适配器(Apache-2.0):用现有订阅把 Muse Code 接进 Zed、IntelliJ IDEA 等 JetBrains IDE,在 Agent Client Protocol 之上走原生 **Muse Session Protocol**(MSP);滚动发版(v0.10.0),带 Zed 安装器 |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | 23 个 Muse agent skill + 决策层 |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | 跨会话保留上下文的个人 agent |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | 中文知识库助手 |
