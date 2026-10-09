@@ -74,6 +74,8 @@
 - [midagedev/outsource](https://github.com/midagedev/outsource) —— ★1 · MIT · Go,创建于 2026-08-13、最后推送 2026-10-08、30 次提交、1 位贡献者、13 个 topic(无一提到 Muse)。一个 **Claude Code skill + 面板**,把第三方模型 CLI 当作无界面的实现型 sub-agent 来用:主 Claude 会话保留真正需要判断的活 —— 写 spec、审 diff、过 gate、提交 —— 把"打字"外包给订阅制下近乎免费的模型。与 Muse 相关的部分具体:**Muse Code** 是它的启动后端之一 —— `--provider muse` 用 `muse` CLI 跑模型 `muse-spark-1.3-contributor`,独占一个账号;README 记录了实测行为:**262k 上下文**、推理强度旋钮(`--effort` → `--reasoning-effort`)、它读得出形状与色系但读不出精确 hex,以及 Muse CLI **既没有 hook 也没有可定义的权限配置** —— 所以该轮的 git 守卫只能是放在 `PATH` 最前的 `git` shim(以 exit 97 拒绝),而用绝对路径调用仍能绕过去。它还记录:Anthropic 兼容接口会以 `billing_error` 回应 API key,CLI 的 OAuth 会话是唯一的入口。相关性在*工具链*层面 —— Muse Code 是它驱动的 agent 之一,而不是本项目构建的基础。★1、0 fork,且 Muse 后端是最近才加到一个 8 月就建好的仓库里;先记在这里,不进上表,等有实际记录再说。
 - [vn-tak/roomAgent](https://github.com/vn-tak/roomAgent) —— ★0 · 无 licence · TypeScript,创建于 2026-10-08、最后推送 2026-10-08、**仅 1 次提交**、无 topic。一个 Cloudflare 原生的「独立 AI 员工」公司**控制平面**:无状态 Worker 网关、用 Durable Objects 承载 organization / room / agent / task / artifact、D1 数据库,以及带角色模板与决策函数的权限目录。与 Muse 相关的部分具体:它把 **Muse** 与 CUE 列为「可替换的执行运行时」——*「它们不是员工档案本身」* —— 并在状态块里明确这是部分完成的本地点概念验证:六 agent 公司测试跑在浏览器会话上,*「Muse 与 CUE 均未被接入」*,Muse 集成尚未实现、也没有任何部署(自评 `AI_COMPANY_OS_POC_PARTIAL`)。相关性在*基础设施*层面 —— Muse 是它打算接入的运行时,而非构建基础。★0、仅 1 次提交、只有一天大;先记在这里,不进上表,等有实际记录再说。
 
+- [SuperInstance/fleet-session](https://github.com/SuperInstance/fleet-session) —— ★0 · 无 licence · 无主语言,创建于 2026-10-09,仅 **1 次提交、1 个文件**（`README.md`）,API size 为 0,无 topic。目前唯一的实质证据是它的描述:*"Give a Muse agent a command session on any machine, at will. One install command, self-healing, scoped by explicit grant."*（给 Muse agent 在任意机器上按需开一个命令会话；一条安装命令、可自愈、由显式授权限定范围）—— 它是直接把 **Muse agent** 当作被授权方,而不是顺带提及。这是本轮新建仓库里与 Muse 关系最直接的一个,但除描述外无从核实:没有代码、没有 licence、仅 1 次提交 —— 先记在这里,不进上表,等有实际记录再说。
+
 ### 明确不收的
 
 **命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**、或指向与自己描述自相矛盾的二进制下载的仓库一律不收 —— 那是推广或更糟的东西,不是生态项目。
@@ -88,6 +90,8 @@
 - 模型获取:[OpenRouter 上的 Muse Spark 1.3](https://openrouter.ai/meta/muse-spark-1.3) —— 模型 id 为 `meta/muse-spark-1.3` 与 `meta/muse-spark-1.3-contributor`,同一列表里还有 1.1、1.2 以及 `meta/muse-glimmer-30b`。读自 OpenRouter 公开模型列表并实测模型页(HTTP 200),2026-10-08。
 - 构建 agent 的基础设施:[CopilotKit](https://github.com/CopilotKit) · AG-UI 协议(openmuse 用它做事件流)
 - 仅关键词命中、与 Muse 无关,已于 2026-10-08 用 GitHub API 核对:[`MVReddy/MuseAgentTaskRepo`](https://github.com/MVReddy/MuseAgentTaskRepo) — ★0 · Python · 无 licence,创建于 2026-09-27,最后推送 2026-10-08。仓库名命中生态检索,但 README 只是 "Daily Python experiments: sample Google Ask agents" 这类通用 agent 练习,没有任何 Muse 内容。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
+
+- 仅关键词命中、与 Muse 无关,已于 2026-10-09 用 GitHub API 核对:[`HuXinyao-sdu/museum-agent-disability`](https://github.com/HuXinyao-sdu/museum-agent-disability) — ★0 · HTML · 无 licence,创建于 2026-09-16、最后推送 2026-10-09、5 次提交、1 KB、无 topic。其描述为「华夏珍宝数字博物馆」,仓库内容只有 `.gitignore`、`3d-museum/` 与 `README.md`,README 第一行就是仓库名与同一句博物馆简介。它命中的是 "museum" 里的 "muse",与 Muse 无任何关系。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
 
 ## 4. 想自己搭一个"个人 agent"?推荐路径
 
