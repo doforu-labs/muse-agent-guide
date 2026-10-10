@@ -146,6 +146,8 @@
 
 - 仅关键词命中、与 Muse 无关,已于 2026-10-10 用 GitHub API 核对:[`cfought-code/museum-ecommerce-agents`](https://github.com/cfought-code/museum-ecommerce-agents) — ★0 · MIT · Python,创建于 2026-09-23、最后推送 2026-10-09、73 KB、无 topic。它命中的只是 \"museum\" 里的 \"muse\":README 是一个**电商 agent 框架** —— 经营分析、SEO 审计、面向 Copilot / ChatGPT / Google AI Overviews / Perplexity 的 AEO(答案引擎优化)、市场研究与内容生成,`agents/` 分为 acquisition / intelligence / merchandising / reporting,每个任务配一个 GitHub Actions workflow。仓库里没有 Muse 产品、没有 `muse` CLI、也没有任何 Meta 集成。不列为生态项目,记在这只是为了让看门狗的\"新仓库\"汇报有答案。
 
+- 仅关键词命中、与 Muse 无关,已于 2026-10-10 用 GitHub API 核对:[`johnpolacek/museum-of-motion`](https://github.com/johnpolacek/museum-of-motion) — ★0 · MIT · TypeScript,创建于 2026-10-09T17:30Z、最后推送 2026-10-10T13:53Z、约 2.6 MB、无 topic。一个 Next.js 演示站:"Museum of Motion" —— 一座虚构的博物馆,每个展项对应网页运动的一种方式;由 AI 编程 agent、GSAP 与作者自己的 Animaxxing skills 搭建,是 Codrops 一篇文章的 demo(README 讲的是 `MOTION.md`、`AGENTS.md` / `CLAUDE.md` 与 `.agents/skills`)。它命中的只是名称里的 "museum":在 README 里检索 `muse`,除了这个词什么也搜不到。没有 Muse 产品、没有 `muse` CLI、没有 Meta 集成。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
+
 - 仅关键词命中、与 Muse 无关,已于 2026-10-10 用 GitHub API 核对:[`half-pace/Multimodal-Agentic-AI-Framework-for-Virtual-Reality-Museum-Navigation`](https://github.com/half-pace/Multimodal-Agentic-AI-Framework-for-Virtual-Reality-Museum-Navigation) — ★1 · Python · 无 licence、无描述,创建于 2026-07-31、最后推送 2026-10-09、482 KB、无 topic。`README.md` 只有仓库标题一行,文件树是一个**虚拟现实博物馆知识库** —— 关于蚕(Eri silkworm)饲养与 Bodo 手织布工艺的原始 PDF、一套 `04_okf/processes/` markdown(ginning、spinning、weaving 等)、`document_manifest.json` 与 `script_ingestion/`。它命中的只是 \"museum\",没有任何 Muse 内容。不列为生态项目,记在这只是为了让看门狗的\"新仓库\"汇报有答案。
 
 ## 4. 想自己搭一个"个人 agent"?推荐路径
