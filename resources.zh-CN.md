@@ -156,6 +156,8 @@
 
 - 仅关键词命中、与 Muse 无关,已于 2026-10-10 用 GitHub API 核对:[`half-pace/Multimodal-Agentic-AI-Framework-for-Virtual-Reality-Museum-Navigation`](https://github.com/half-pace/Multimodal-Agentic-AI-Framework-for-Virtual-Reality-Museum-Navigation) — ★1 · Python · 无 licence、无描述,创建于 2026-07-31、最后推送 2026-10-09、482 KB、无 topic。`README.md` 只有仓库标题一行,文件树是一个**虚拟现实博物馆知识库** —— 关于蚕(Eri silkworm)饲养与 Bodo 手织布工艺的原始 PDF、一套 `04_okf/processes/` markdown(ginning、spinning、weaving 等)、`document_manifest.json` 与 `script_ingestion/`。它命中的只是 \"museum\",没有任何 Muse 内容。不列为生态项目,记在这只是为了让看门狗的\"新仓库\"汇报有答案。
 
+- 仅关键词命中、与 Muse 无关,已于 2026-10-11 用 GitHub API 核对:[`EyaAzzabi/AI-Museum-of-the-future`](https://github.com/EyaAzzabi/AI-Museum-of-the-future) — ★0 · Python · 无 licence、无 topic,创建于 2026-09-23、最后推送 2026-10-10T22:08Z、约 3.6 MB、24 次提交、0 fork。一个课程作业形态的 AI 项目:*"Build an AI-powered virtual museum that represents our current era as if it were being curated 100 years in the future."* —— `agents/` 每个分析视角一个模块(curator、historian、sociologist、culture_art、technology、visual),共用 `base_agent.py` / `pipeline.py` / `llm_config.py`;`data/` 抓取 Wikipedia、Wikimedia、arXiv、GDELT 与 World Bank;`multimodal/` 在 RAG 知识库上做图像理解;`prompts/` 放各视角提示词;`docs/` 里是该项目的周报与验证 PDF(`AI_Museum_of_the_Future_W1.pdf`、`Week2-3_Validation_Report.pdf`)。它命中的只是名称里的 "museum":文件树 129 个路径中没有任何一条以 `muse` 作为词出现,README 里也没有 Muse 产品、`muse` CLI 或 Meta 的任何提及 —— 这里的 "specialized AI agents" 是跑公开数据的大模型视角,不是 Muse。不列为生态项目,记在这只是为了让看门狗的"新仓库"汇报有答案。
+
 ## 4. 想自己搭一个"个人 agent"?推荐路径
 
 1. 先读 **openmuse** 的架构(server + worker + persistent Chromium),理解"agent 电脑"怎么落地;
