@@ -1,6 +1,6 @@
 # Resource List
 
-> Categorised links for **Muse** (Meta's personal AI agent). Types are labelled; star counts are the 2026-10-08 snapshot.
+> Categorised links for **Muse** (Meta's personal AI agent). Types are labelled; star counts are approximate and re-checked periodically — the dated snapshot table lives in [`data.md`](data.md).
 > A background job re-checks link liveness periodically — when a fetch fails from this host it retries through a proxy rather than reporting a dead link.
 >
 > 中文版 → [resources.zh-CN.md](resources.zh-CN.md)
@@ -40,9 +40,9 @@
 
 ### Closest open equivalents
 
-- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.2k · MIT · TypeScript
+- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.5k · MIT · TypeScript
   A personal-agent app that **brings its own agent computer**: persistent Chromium plus an optional Linux workspace; its own server / task worker / browser worker; works with any agent harness; iOS, Android and web clients. Read `docs/VERIFICATION.md` (what has been proven) and `ROADMAP.md` (what has not: graphical desktop, automatic checkout).
-- **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★15.9k · MIT · Python
+- **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★16.0k · MIT · Python
   Open agent harness with a built-in personal agent ("Ohmo").
 
 ### Tools built around Muse itself
@@ -50,15 +50,15 @@
 | Project | ★ | What it does |
 |---|---|---|
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | Manage fleets of Claude Code / Codex / Muse agents |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | One message deploys Claude Code onto your Muse VM; the repo now also ships *dimensio*, a multi-model agent workspace |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 14 | One message deploys Claude Code onto your Muse VM; the repo now also ships *dimensio*, a multi-model agent workspace |
 | [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | **Unofficial** ACP adapter — drive Muse Code from Zed, VS Code and other Agent Client Protocol editors (npm `@bex-co/muse-code-acp`) |
 | [BrokkAi/muse-acp](https://github.com/BrokkAi/muse-acp) | 14 | Dependency-free Rust adapter (Apache-2.0) that puts Muse Code inside Zed, IntelliJ IDEA and other JetBrains IDEs on your existing subscription, speaking the native **Muse Session Protocol** (MSP) over Agent Client Protocol; released on a rolling `v0.10.0`, with an installer for Zed settings |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | 23 Muse agent skills + a decision layer |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | Personal agent that keeps context across sessions |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Chinese knowledge-base assistant |
-| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 hardware experiments |
-| [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | Read-only MCP connector built for the [Muse Connector Platform](https://muse.ai/platform): six tools (class-action settlements, CPSC recalls, unused card credits, expiring points, birthday freebies, "what's new"), each also a REST endpoint; MIT · TypeScript · created 2026-09-19, last push 2026-10-08 |
-| [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 129 | Vendor-neutral **session migration across 18 coding-agent harnesses** — Muse Code among them (support added in v0.8.0, 2026-08-25) — via `smigrate transfer` / `smigrate catalog search`; PyPI `session-migrate`, Python 3.11+ on Linux, 324 ordered routes, MIT |
+| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 23 | ESP32 hardware experiments |
+| [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | Read-only MCP connector built for the [Muse Connector Platform](https://muse.ai/platform): six tools (class-action settlements, CPSC recalls, unused card credits, expiring points, birthday freebies, "what's new"), each also a REST endpoint; MIT · TypeScript · created 2026-09-19, last push 2026-10-09 |
+| [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 130 | Vendor-neutral **session migration across 18 coding-agent harnesses** — Muse Code among them (support added in v0.8.0, 2026-08-25) — via `smigrate transfer` / `smigrate catalog search`; PyPI `session-migrate`, Python 3.11+ on Linux, 324 ordered routes, MIT |
 
 ### Tracked, not yet vetted
 

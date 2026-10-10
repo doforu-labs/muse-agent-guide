@@ -1,6 +1,6 @@
 # 资源大全
 
-> 分类整理,Muse(个人 AI Agent)相关。每条注明类型;星数为 2026-10-08 抓取值。
+> 分类整理,Muse(个人 AI Agent)相关。每条注明类型;星数为近似值,定期复核 —— 带日期的快照见 [`data.zh-CN.md`](data.zh-CN.md)。
 > 链接由后台任务定期抽查存活(见仓库更新日志)。
 
 ## 1. 官方一手来源
@@ -41,9 +41,9 @@
 
 ### 最接近 Muse 的开源替代
 
-- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.2k · MIT · TypeScript
+- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.5k · MIT · TypeScript
   个人 agent 应用,**自带 agent 电脑**:持久 Chromium + 可选 Linux 工作区;自建 server / task worker / browser worker;支持任意 agent harness;有 iOS / Android / Web 三端(React Native)。仓库内有 `docs/VERIFICATION.md`(什么被验证过)和 `ROADMAP.md`(什么还没做:图形桌面、自动结账)。
-- **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★15.9k · Python
+- **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★16.0k · Python
   开源 agent harness,内置个人 agent(Ohmo)。
 
 ### 生态周边(围绕 Muse 本身的工具)
@@ -51,15 +51,15 @@
 | 项目 | ★ | 用途 |
 |---|---|---|
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | 统一管理 Claude Code / Codex / Muse 的 agent 集群 |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 14 | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
 | [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | **非官方** ACP 适配器:在 Zed / VS Code 等 Agent Client Protocol 编辑器里跑 Muse Code(npm `@bex-co/muse-code-acp`) |
 | [BrokkAi/muse-acp](https://github.com/BrokkAi/muse-acp) | 14 | 零依赖的 Rust 适配器(Apache-2.0):用现有订阅把 Muse Code 接进 Zed、IntelliJ IDEA 等 JetBrains IDE,在 Agent Client Protocol 之上走原生 **Muse Session Protocol**(MSP);滚动发版(v0.10.0),带 Zed 安装器 |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | 23 个 Muse agent skill + 决策层 |
 | [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | 跨会话保留上下文的个人 agent |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | 中文知识库助手 |
-| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | ESP32 硬件方向实验 |
+| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 23 | ESP32 硬件方向实验 |
 | [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | 面向 [Muse Connector Platform](https://muse.ai/platform) 的只读 MCP 连接器:六个工具(集体诉讼和解、CPSC 产品召回、未用掉的信用卡权益、到期积分、生日免费赠品、"有什么新东西"),每个同时也是 REST 接口;MIT · TypeScript · 创建于 2026-09-19 |
-| [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 129 | 跨 18 种编码 agent 的**会话迁移工具**(Muse Code 为其中之一,自 v0.8.0 起支持):`smigrate transfer` / `smigrate catalog search`;PyPI `session-migrate`,Python 3.11+ / Linux,324 条有序迁移路径,MIT |
+| [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 130 | 跨 18 种编码 agent 的**会话迁移工具**(Muse Code 为其中之一,自 v0.8.0 起支持):`smigrate transfer` / `smigrate catalog search`;PyPI `session-migrate`,Python 3.11+ / Linux,324 条有序迁移路径,MIT |
 
 ### 暂记:新出现、未验证
 
