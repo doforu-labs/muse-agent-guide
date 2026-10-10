@@ -30,7 +30,7 @@ Captured **2026-10-10 (UTC+8)** — every row re-read that day in a single Graph
 | HKUDS/OpenHarness | 15,955 | 2026-06-04 | Python | MIT |
 | CopilotKit/openmuse | 4,461 | 2026-10-10 | TypeScript | MIT |
 | xhluca/session-migrate | 130 | 2026-10-09 | Python | MIT |
-| avirtual/clodex | 124 | 2026-10-08 | JavaScript | Apache-2.0 |
+| avirtual/clodex | 124 | 2026-10-10 | JavaScript | Apache-2.0 |
 | JJenglert1/esp32-muse-agent | 23 | 2026-10-04 | Shell | Apache-2.0 |
 | Wode44398/muse-bridge | 14 | 2026-10-08 | TypeScript | MIT |
 | bex-co/muse-code-acp | 10 | 2026-10-09 | TypeScript | Apache-2.0 |
