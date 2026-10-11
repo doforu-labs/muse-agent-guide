@@ -60,6 +60,7 @@
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 23 | ESP32 硬件方向实验 |
 | [harris-ryder/dowser](https://github.com/harris-ryder/dowser) | 0 | 面向 [Muse Connector Platform](https://muse.ai/platform) 的只读 MCP 连接器:六个工具(集体诉讼和解、CPSC 产品召回、未用掉的信用卡权益、到期积分、生日免费赠品、"有什么新东西"),每个同时也是 REST 接口;MIT · TypeScript · 创建于 2026-09-19 |
 | [xhluca/session-migrate](https://github.com/xhluca/session-migrate) | 130 | 跨 18 种编码 agent 的**会话迁移工具**(Muse Code 为其中之一,自 v0.8.0 起支持):`smigrate transfer` / `smigrate catalog search`;PyPI `session-migrate`,Python 3.11+ / Linux,324 条有序迁移路径,MIT |
+| [nevoflux-browser/nevoflux-muse](https://github.com/nevoflux-browser/nevoflux-muse) | 0 | AI agent 在自己 VM 里运行的客户端,用来驱动已配对的 **NevoFlux** 浏览器 —— MCP 走端到端加密中继,带常驻 bridge;客户端协议记录在 head 仓库(`nevoflux-agent` 的 `docs/muse-client-protocol.md`)。`nf` CLI 全非交互、全程支持 `--json`:`pair`、`auth begin`、`status`、`tools`、`call`、`approve` / `deny` / `pending`(需审批的调用以退出码 3 返回 `approval_required`)、`ensure`、`daemon`、`setup`、`unpair`、`reset`、`uninstall`、`version`;由 `setup.sh` 安装,配 systemd user unit 或 5 分钟看门狗(`ensure.sh`)。Muse 侧协议被密封信封夹具锁定(`envelope.json`、`kdf.json`、`seal.json`、`pairing_code.json`、`mcp_messages.json`、`tool_errors.json`),带真实的 `fake_head` / `fake_relay` 测试夹具、18 个测试模块与 CI,以及一份 24 KB、面向 agent 的 `INSTALL.md`;MIT · Python · 创建于 2026-10-01、最后推送 2026-10-11 |
 
 ### 暂记:新出现、未验证
 
