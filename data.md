@@ -20,6 +20,7 @@
 | Small-business connectors | Asana, Box, Canva, Dropbox, Figma, Granola, HighLevel, Intuit QuickBooks, Klaviyo, Lovable, Notion, Shopify, Slack, Stripe, Zoom + Facebook/Instagram/Meta ads; full list in settings, *"with more to come"* | `muse.ai/business` (verbatim re-check) | 2026-10-08 |
 | Payments | First AI agent covered by **Stripe Link purchase protections**; one-time-use card | Meta announcement | 2026-09 |
 | Not yet shipped | Muse Confidential VM (whole-VM encryption, user-held key), Shop Pay, 1Password, AI glasses | Meta announcement | 2026-09 (status 2026-10-08) |
+| Muse Code release channel | Public channel `api.meta.ai/muse-code/channels/muse-stable` answered **HTTP 200** directly from this host with version **1.4.6-R6000.1** (`state` `public`, urgency `none`, `min_version` null); the manifest it names lists **7 artifacts** — `x86_macos` 375,752,688 B, `aarch64_macos` 355,369,136 B, `x86_linux` (`muse-x86-linux`) **360,958,168 B**, `aarch64_linux` **323,098,728 B**, universal macOS `.pkg` 278,908,807 B, `x86_windows` 463,719,160 B, `aarch64_windows` 425,084,664 B — each with its own sha256, plus a top-level `msp_schema_fingerprint` | Meta's own channel and manifest files, fetched directly (no proxy) | 2026-10-12 |
 
 ## 2. Open-source ecosystem stars & licences (GitHub API)
 

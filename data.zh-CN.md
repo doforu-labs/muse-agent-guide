@@ -18,6 +18,7 @@
 | 小企业连接器 | Asana、Box、Canva、Dropbox、Figma、Granola、HighLevel、Intuit QuickBooks、Klaviyo、Lovable、Notion、Shopify、Slack、Stripe、Zoom,外加 Facebook / Instagram / Meta ads;完整清单在设置中查看,官方称"with more to come" | [`muse.ai/business`](https://muse.ai/business) 逐字复核 | 2026-10-08 抓取 |
 | 支付保护 | 首个被 **Stripe Link 购买保护**覆盖的 AI agent | Meta 官方公告 | 2026-09 |
 | 待上线 | Muse Confidential VM(整机加密,密钥仅用户持有)、Shop Pay、1Password | Meta 官方公告 | 2026-09 |
+| Muse Code 发布渠道 | 公开渠道 `api.meta.ai/muse-code/channels/muse-stable` 在本机直连返回 **HTTP 200**(未走代理),版本 **1.4.6-R6000.1**(`state: public`、urgency `none`、`min_version` 为 null);其 manifest 列出 **7 个产物** —— `x86_macos` 375,752,688 B、`aarch64_macos` 355,369,136 B、`x86_linux`(`muse-x86-linux`)**360,958,168 B**、`aarch64_linux` **323,098,728 B**、通用 macOS `.pkg` 278,908,807 B、`x86_windows` 463,719,160 B、`aarch64_windows` 425,084,664 B —— 各带自己的 sha256,另有一个 `msp_schema_fingerprint` | Meta 官方渠道与 manifest 文件,本机直连抓取 | 2026-10-12 |
 
 ## 二、开源生态星数(GitHub API 抓取)
 
