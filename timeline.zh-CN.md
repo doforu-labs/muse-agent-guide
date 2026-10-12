@@ -35,6 +35,15 @@
   - 死链清理:`RomanSlack/Meta_Muse_Agent_System_Prompt` 已 404,从 [`resources.md`](resources.md) 移除
 - **官方小企业公告页有更新(2026-10-09 复核发现)**:`about.fb.com/news/2026/09/introducing-muse-small-business/` 页面元数据由 published 2026-09-29 变为 published 2026-09-29 + **last updated 2026-10-08**(dateModified 2026-10-08T15:52:57Z);主公告页侧栏 Related News 卡片同步从 "September 29, 2026 September 29, 2026" 变为 "September 29, 2026 October 8, 2026"。**正文差异未作比对**(无旧基线,且直连抓取间歇失败,不声称"新增")。主公告页自身 last updated 仍为 2026-09-30
 
+## 2026-10-12:官方发布 Muse Wonder 系列
+
+- **2026-10-12 — 官方发布 Muse Wonder 与 Muse Wonder Full**(公告 `about.fb.com/news/2026/10/introducing-muse-wonder-models/`,页面元数据 published 2026-10-12T17:08:05Z、dateModified 17:16:59Z,wordCount 444;研究博客 `research.meta.ai/blog/muse-wonder`,日期 2026-10-12)
+  - 官方定位:建立在 Muse Spark 地基上的"our most capable models to date",在个人与专业 agentic 任务上达到 SOTA;覆盖**法律、金融、健康**等领域知识与**前沿编码**能力
+  - 两项新能力:**Active Memory**(把重要上下文跨对话带走,并在相关时取回)与 **Active Focus**(目标受阻时继续推进、换方法、从错误中恢复,重要动作前先确认)
+  - 首日可用面:**Muse Wonder 通过 Meta Model API 与 Muse Code 提供;Muse Wonder Full 面向 Muse Code 订阅者**;官方称 Muse Wonder"很快会驱动更多 Muse 体验,先向订阅者推送"
+  - 安全口径:按 Meta《Superintelligence Scaling Framework》训练、评测与发布,更完整的安全评测报告"available soon";研究博客另称该系列在 Meta **吉瓦级 Prometheus 数据中心**训练
+- **同日侧栏轮换(页面哈希变化的原因)**:主公告页 `about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/` 的 "Recent News" 侧栏加入上述 Muse Wonder 条目,并下掉《Expanding Instagram's School Partnership Program to Help Teens Stay Informed》。该页自身日期未动(published 2026-09-08、last updated 2026-09-30),正文无变化 —— 结论来自与 Internet Archive 2026-10-12T14:16Z 快照的逐词比对(相似度 0.99454)
+
 ## 待发生(官方口径,尚未上线)
 
 | 事项 | 官方表述 | 状态 |

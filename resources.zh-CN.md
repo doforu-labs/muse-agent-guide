@@ -13,6 +13,8 @@
 | `introducing.muse.ai` | 官方《How We Designed Muse》:设计思路 |
 | `security.muse.ai` | 官方《How We Built Safety Into Muse》:安全与隐私工程 |
 | [Muse Spark 1.3 模型博客](https://research.meta.ai/blog/introducing-muse-spark-1-3) | 底层模型说明(为 agentic 任务打造) |
+| [Muse Wonder 与 Muse Wonder Full(公告)](https://about.fb.com/news/2026/10/introducing-muse-wonder-models/) | 前沿模型发布:个人与专业 agentic 任务达到 SOTA,覆盖法律 / 金融 / 健康等领域与前沿编码能力,并新增两项能力 —— Active Memory(跨对话记忆)与 Active Focus(持续攻坚)(published 2026-10-12T17:08:05Z,updated 17:16:59Z) |
+| [Muse Wonder(研究博客)](https://research.meta.ai/blog/muse-wonder) | 官方研究博客:"A frontier model that leads on personal and professional agents" —— 训练规模(吉瓦级 Prometheus 数据中心)、评测套件与安全评估(日期 2026-10-12) |
 | [Muse Code](https://dev.meta.ai/products/muse-code) | 面向编程工作流的同系列产品 |
 | [权限设置帮助页](https://www.meta.com/help/1385290430137537/) | 逐项调整每个连接 App 的权限 |
 | [Link 购买保护范围](https://support.link.com/questions/what-s-covered-with-protections) | 官方说明:丢件/损坏、降价补差、免退货费 |
