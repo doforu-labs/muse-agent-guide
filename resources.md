@@ -17,7 +17,7 @@
 | `introducing.muse.ai` | "How We Designed Muse" — design rationale |
 | `security.muse.ai` | "How We Built Safety Into Muse" — security and privacy engineering |
 | [Muse Spark 1.3](https://research.meta.ai/blog/introducing-muse-spark-1-3) | The underlying model, built for agentic work |
-| [Introducing Muse Wonder and Muse Wonder Full (announcement)](https://about.fb.com/news/2026/10/introducing-muse-wonder-models/) | The frontier model release: state-of-the-art on personal and professional agentic tasks, expert domains (law, finance, health), frontier coding, and two new behaviours — Active Memory and Active Focus (published 2026-10-12T17:08:05Z, updated 17:16:59Z) |
+| [Introducing Muse Wonder and Muse Wonder Full (announcement)](https://about.fb.com/news/2026/10/introducing-muse-wonder-models/) | The frontier model release: state-of-the-art on personal and professional agentic tasks, expert domains (law, finance, health), frontier coding, and two new behaviours — Active Memory and Active Focus (published 2026-10-12T17:08:05Z; revised 2026-10-13T17:27:26Z — page metadata and sidebar moved, article text did not) |
 | [Muse Wonder (research blog)](https://research.meta.ai/blog/muse-wonder) | "A frontier model that leads on personal and professional agents" — the scaling story (gigawatt-scale Prometheus data center), the evaluation suite and the safety work behind the series (dated 2026-10-12) |
 | [Muse Code](https://dev.meta.ai/products/muse-code) | Programming-workflow sibling product |
 | [Permissions help page](https://www.meta.com/help/1385290430137537/) | Per-connection permission settings |

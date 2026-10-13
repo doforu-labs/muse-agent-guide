@@ -37,7 +37,7 @@
 
 ## 2026-10-12:官方发布 Muse Wonder 系列
 
-- **2026-10-12 — 官方发布 Muse Wonder 与 Muse Wonder Full**(公告 `about.fb.com/news/2026/10/introducing-muse-wonder-models/`,页面元数据 published 2026-10-12T17:08:05Z、dateModified 17:16:59Z,wordCount 444;研究博客 `research.meta.ai/blog/muse-wonder`,日期 2026-10-12)
+- **2026-10-12 — 官方发布 Muse Wonder 与 Muse Wonder Full**(公告 `about.fb.com/news/2026/10/introducing-muse-wonder-models/`,页面元数据 published 2026-10-12T17:08:05Z、dateModified 17:16:59Z、wordCount 444(2026-10-13T17:27:26Z 被 Meta 修订:dateModified 前移、wordCount 变 455,而正文逐段未变 —— 见 `data.zh-CN.md`);研究博客 `research.meta.ai/blog/muse-wonder`,日期 2026-10-12)
   - 官方定位:建立在 Muse Spark 地基上的"our most capable models to date",在个人与专业 agentic 任务上达到 SOTA;覆盖**法律、金融、健康**等领域知识与**前沿编码**能力
   - 两项新能力:**Active Memory**(把重要上下文跨对话带走,并在相关时取回)与 **Active Focus**(目标受阻时继续推进、换方法、从错误中恢复,重要动作前先确认)
   - 首日可用面:**Muse Wonder 通过 Meta Model API 与 Muse Code 提供;Muse Wonder Full 面向 Muse Code 订阅者**;官方称 Muse Wonder"很快会驱动更多 Muse 体验,先向订阅者推送"
