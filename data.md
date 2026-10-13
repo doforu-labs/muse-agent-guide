@@ -125,6 +125,24 @@ curl -s "https://itunes.apple.com/lookup?id=6760173601&country=us" \
                         rating:.averageUserRating, ratings:.userRatingCount, minOS:.minimumOsVersion}'
 ```
 
+## 3c. Muse session logs on disk — read by a third party, 2026-10-13
+
+**Not from Meta, and not from a Muse install on this host.** Every row below was read this round out of **[`aien-dev/agent-archive`](https://github.com/aien-dev/agent-archive)** (AGPL-3.0, Rust, ★0): its `parse_muse` in `src/collectors.rs`, plus the unit-test fixture `tests/fixtures/muse.jsonl` it ships. It is the first code found in this list that parses Muse's own logs, and its README marks the Muse source *"partly verified"* — so read the shape as a third party's reading of one machine, not as Meta documentation.
+
+| Item | Value | Evidence |
+|---|---|---|
+| Session log path | `~/.local/share/muse/sessions/**/session.jsonl` | `collect_muse` joins `.local/share/muse/sessions` onto the home directory |
+| File format | JSONL — one JSON object per line, appended | source table in the README |
+| Session id | `stream.id`, e.g. `01a0bec6-c930-7192-972d-7a3bf42d2552` | fixture line 2 |
+| Timestamp | `recorded_at`, **microseconds** since the epoch — `1789907129524992` = `2026-09-20T12:25:29.524992Z` | fixture lines 2-4 |
+| Ordering | `sequence`, an integer per record (12, 30, 31 in the fixture) | fixture |
+| User text | `payload_type: "runtime.user_intent.accepted"` → `payload.model_messages[].content[].text` | `parse_muse`, fixture line 2 |
+| Assistant reply | `payload_type: "runtime.session"` where `payload.event.kind == "assistant_message_committed"` → `payload.event.text` | `parse_muse`, fixture line 3 |
+| Framing lines | `{"retained_frame":"session_permission_transaction","frame_schema_version":1,"outer_log_ordinal":1,"children":[]}` — kept in the raw mirror only, never turned into records | fixture line 1, README |
+| Versioning | every record carries `schema_version: 1` | fixture |
+
+Two caveats, quoted from that project's own README because they bound how much weight the table carries: the archive's design note originally expected **`turn.input.user`** and **`run.output.delta`** events — *"those did not occur in the 81 sessions on disk when this parser was written"* — so the two event names above are what its author found instead; and the Muse source is unit-tested against the cut-down `tests/fixtures/muse.jsonl`, not against a live install. No Muse installation exists on this host, so none of this was reproduced locally. Re-check against `aien-dev/agent-archive` if it gains commits.
+
 ## 4. How to reproduce this data
 
 ```bash

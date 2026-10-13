@@ -115,6 +115,24 @@ v10.0 的更新说明直接点名了面向小企业的连接器:**Asana、Canva�
 
 复现命令见英文版 `data.md` 同一节。
 
+## 三点六、Muse 本地会话日志长什么样 —— 2026-10-13 由第三方读出
+
+**不是 Meta 的资料,也不是本机 Muse 安装的产物。** 下表每一行都是本轮从 **[`aien-dev/agent-archive`](https://github.com/aien-dev/agent-archive)**(AGPL-3.0,Rust,★0)读出的:它 `src/collectors.rs` 里的 `parse_muse`,以及它自带的单测样本 `tests/fixtures/muse.jsonl`。这是本清单里第一份解析 Muse 自身日志的代码,而它的 README 把 Muse 源标为 *"partly verified"* —— 所以请把这当作第三方对一台机器的读数,而不是 Meta 的官方文档。
+
+| 项目 | 值 | 依据 |
+|---|---|---|
+| 会话日志路径 | `~/.local/share/muse/sessions/**/session.jsonl` | `collect_muse` 把 `.local/share/muse/sessions` 拼在 home 目录下 |
+| 文件格式 | JSONL,一行一个 JSON 对象,追加写 | README 的源表 |
+| 会话 id | `stream.id`,例如 `01a0bec6-c930-7192-972d-7a3bf42d2552` | 样本第 2 行 |
+| 时间戳 | `recorded_at`,**微秒**级 Unix 时间 —— `1789907129524992` = `2026-09-20T12:25:29.524992Z` | 样本第 2-4 行 |
+| 顺序 | `sequence`,逐条递增的整数(样本中为 12、30、31) | 样本 |
+| 用户输入 | `payload_type: "runtime.user_intent.accepted"` → `payload.model_messages[].content[].text` | `parse_muse`,样本第 2 行 |
+| 助手回复 | `payload_type: "runtime.session"` 且 `payload.event.kind == "assistant_message_committed"` → `payload.event.text` | `parse_muse`,样本第 3 行 |
+| 框架行 | `{"retained_frame":"session_permission_transaction","frame_schema_version":1,"outer_log_ordinal":1,"children":[]}` —— 这类行只进原始镜像,不转成记录 | 样本第 1 行、README |
+| 版本字段 | 每条记录都带 `schema_version: 1` | 样本 |
+
+两点免责,引自该项目的 README,用以界定上表能承载多少分量:该归档器的设计笔记原本预期的是 **`turn.input.user`** 与 **`run.output.delta`** 事件 —— *"those did not occur in the 81 sessions on disk when this parser was written"* —— 所以上面两个事件名是作者实际找到的替代;而且 Muse 源是对着裁剪过的 `tests/fixtures/muse.jsonl` 做单测,不是对着活的安装。本机没有 Muse 安装,以上未在本地复现。若 `aien-dev/agent-archive` 有了新提交,可再核一次。
+
 ## 四、本仓库数据的复现方式
 
 ```bash
