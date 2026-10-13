@@ -43,6 +43,7 @@
   - 首日可用面:**Muse Wonder 通过 Meta Model API 与 Muse Code 提供;Muse Wonder Full 面向 Muse Code 订阅者**;官方称 Muse Wonder"很快会驱动更多 Muse 体验,先向订阅者推送"
   - 安全口径:按 Meta《Superintelligence Scaling Framework》训练、评测与发布,更完整的安全评测报告"available soon";研究博客另称该系列在 Meta **吉瓦级 Prometheus 数据中心**训练
 - **同日侧栏轮换(页面哈希变化的原因)**:主公告页 `about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/` 的 "Recent News" 侧栏加入上述 Muse Wonder 条目,并下掉《Expanding Instagram's School Partnership Program to Help Teens Stay Informed》。该页自身日期未动(published 2026-09-08、last updated 2026-09-30),正文无变化 —— 结论来自与 Internet Archive 2026-10-12T14:16Z 快照的逐词比对(相似度 0.99454)
+- **2026-10-13 侧栏再次轮换(页面哈希再变的原因)**:同一页 "Recent News" 又换了两条 —— 加入《Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks》、下掉《Find Your Community With Forum, a Dedicated App for Facebook Groups》;该页自身日期与 `wordCount` 861 仍未动,正文无变化(与本机 2026-10-13 08:25 本地时间副本逐词比对,相似度 0.99326)
 
 ## 待发生(官方口径,尚未上线)
 
