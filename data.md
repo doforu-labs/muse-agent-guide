@@ -131,7 +131,7 @@ curl -s "https://itunes.apple.com/lookup?id=6760173601&country=us" \
 
 ## 3c. Muse session logs on disk — read by a third party, 2026-10-13
 
-**Not from Meta, and not from a Muse install on this host.** Every row below was read this round out of **[`aien-dev/agent-archive`](https://github.com/aien-dev/agent-archive)** (AGPL-3.0, Rust, ★0): its `parse_muse` in `src/collectors.rs`, plus the unit-test fixture `tests/fixtures/muse.jsonl` it ships. It is the first code found in this list that parses Muse's own logs, and its README marks the Muse source *"partly verified"* — so read the shape as a third party's reading of one machine, not as Meta documentation.
+**Not from Meta, and not from a Muse install on this host.** Every row below was read this round out of **[`aien-spark/agent-archive`](https://github.com/aien-spark/agent-archive)** (AGPL-3.0, Rust, ★0; renamed from `aien-dev` on 2026-10-13 — same repository, same head commit `542ae1e`): its `parse_muse` in `src/collectors.rs`, plus the unit-test fixture `tests/fixtures/muse.jsonl` it ships. It is the first code found in this list that parses Muse's own logs, and its README marks the Muse source *"partly verified"* — so read the shape as a third party's reading of one machine, not as Meta documentation.
 
 | Item | Value | Evidence |
 |---|---|---|
@@ -145,7 +145,7 @@ curl -s "https://itunes.apple.com/lookup?id=6760173601&country=us" \
 | Framing lines | `{"retained_frame":"session_permission_transaction","frame_schema_version":1,"outer_log_ordinal":1,"children":[]}` — kept in the raw mirror only, never turned into records | fixture line 1, README |
 | Versioning | every record carries `schema_version: 1` | fixture |
 
-Two caveats, quoted from that project's own README because they bound how much weight the table carries: the archive's design note originally expected **`turn.input.user`** and **`run.output.delta`** events — *"those did not occur in the 81 sessions on disk when this parser was written"* — so the two event names above are what its author found instead; and the Muse source is unit-tested against the cut-down `tests/fixtures/muse.jsonl`, not against a live install. No Muse installation exists on this host, so none of this was reproduced locally. Re-check against `aien-dev/agent-archive` if it gains commits.
+Two caveats, quoted from that project's own README because they bound how much weight the table carries: the archive's design note originally expected **`turn.input.user`** and **`run.output.delta`** events — *"those did not occur in the 81 sessions on disk when this parser was written"* — so the two event names above are what its author found instead; and the Muse source is unit-tested against the cut-down `tests/fixtures/muse.jsonl`, not against a live install. No Muse installation exists on this host, so none of this was reproduced locally. Re-check against `aien-spark/agent-archive` (renamed from `aien-dev` on 2026-10-13; head commit still `542ae1e`) if it gains commits.
 
 ## 4. How to reproduce this data
 
