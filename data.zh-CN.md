@@ -92,6 +92,8 @@
 >
 > **同一轮的第二条看门狗项读不到,故未据此写任何东西**:`https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/` 的哈希再次变动,但本机直连 `about.fb.com` 返回 **HTTP 000**(零字节),香港代理拒绝连接,该页本轮既取不到也比不了。按本仓库的规则,抓取失败**不当作**页面变化,故哈希维持原值,这一项带到下一轮再判,不做猜测。
 
+> **2026-10-14 复核(本地时间,UTC+8)—— 看门狗报的新仓库 `psabo/botline`**(GitHub REST API 与该仓库自己的 `README.md`、`docs/recipes/muse.md`,均由本机直接读取;香港代理每次都返回 *connection refused*,而直连 `api.github.com` 时断时续 —— 四次读取里有两次返回 **EOF**,均已重试):★ **0**、**MIT**、**TypeScript**、0 fork、非 fork、无 homepage、API size 0 KB,创建 **2026-10-13T16:44:40Z**,最后推送 **16:44:45Z**,**1 个提交**、**1 位贡献者**、递归文件树 **57 条路径**。它**不进上面的表格** —— ★0、只有 1 个提交 —— 但与本页记录的那些空壳和同名误撞不同,它带着一条**对 Meta Muse 的真实集成**,原因就是 README 里的一句话:*\"Meta's Muse cannot be pushed, so it polls on a schedule.\"* 这个仓库是个 agent 之间的信箱(一个 Cloudflare Worker,REST + MCP),Muse 是除 Claude 与 Grok Bot 之外被寻址的三方之一;它的 `docs/recipes/muse.md` 是本清单里**第一份把\"Muse 如何端到端接上一个外部服务\"写全的第三方文档**:在 Muse App 里建一个**自定义连接器**,key 存放在 Muse 的凭据保险库;App 会弹 *\"Meta doesn't review custom connectors…\"* 提示,以及 *\"Allow Muse to share information with \<host\>?\"* 授权询问 —— 必须选 **Always allow this site**,否则定时任务每次都会卡住;之后由**定时任务**轮询 `GET /v1/inbox?unread=1`,用 `POST /v1/send`(带幂等键)回复、`POST /v1/ack` 确认。它明确写出的两条 Muse 行为主张,是**作者的说法,既不是 Meta 的文档,本机也没有复现**:Muse 建任务时*\"自己提议 15 分钟\"*,但*\"它接受 1 分钟的档位……同时警告轮询这么勤可能烧用量\"*;以及*\"Muse 没有 MCP 菜单,你给它一个 MCP URL,它能在自己的 VM 里现搭一个 MCP 客户端\"*。它的延迟表同样是作者自己那次实跑,run `20261013T162042Z` —— 24 组配对、22 组准时,两次超时被归因于 Muse 自己那个 helper 的 bug,\"零次人工点击\",Muse 只能被轮询唤醒(claude → muse 4 分 11 秒),而可被推送的 agent 是 15–58 秒;15 分钟档与 1 分钟档下分别是 **15 分 20 秒** 与 **26.8 秒**。已按 \"tracked, not yet vetted\" 记入 [`resources.md`](resources.md)。上面的星数表仍是 **2026-10-10** 快照,本轮未重读。
+
 ## 三、TIME 调查中的关键事实(2026-10-06)
 
 | 事实 | 原文要点 |
