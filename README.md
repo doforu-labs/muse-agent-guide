@@ -143,7 +143,7 @@ Star counts captured **2026-10-08** via the GitHub API (see [`data.md`](data.md)
 | Project | ★ | Language | License | What it is |
 |---|---|---|---|---|
 | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 15.9k | Python | MIT | Open agent harness with a built-in personal agent ("Ohmo") |
-| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 4.2k | TypeScript | MIT | **Closest open equivalent**: persistent Chromium + optional Linux workspace, own server / task worker / browser worker, iOS + Android + web |
+| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.0k | TypeScript | MIT | **Closest open equivalent**: persistent Chromium + optional Linux workspace, own server / task worker / browser worker, iOS + Android + web |
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | Visual manager for fleets of Claude Code / Codex / **Muse** agents |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | Muse agent experiments on ESP32 hardware |
 | [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | One message deploys Claude Code onto your Muse VM; the repo now also ships *dimensio*, a multi-model agent workspace |

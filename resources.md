@@ -45,7 +45,7 @@
 
 ### Closest open equivalents
 
-- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.5k · MIT · TypeScript
+- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★5.0k · MIT · TypeScript
   A personal-agent app that **brings its own agent computer**: persistent Chromium plus an optional Linux workspace; its own server / task worker / browser worker; works with any agent harness; iOS, Android and web clients. Read `docs/VERIFICATION.md` (what has been proven) and `ROADMAP.md` (what has not: graphical desktop, automatic checkout).
 - **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★16.0k · MIT · Python
   Open agent harness with a built-in personal agent ("Ohmo").

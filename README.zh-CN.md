@@ -139,7 +139,7 @@ Meta 官方定义(来源:`about.fb.com/news/2026/09/introducing-muse-personal-ai
 | 项目 | ★ | 语言 | 许可 | 一句话定位 |
 |---|---|---|---|---|
 | [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 15.9k | Python | MIT | 开源 agent harness,自带个人 agent "Ohmo" |
-| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 4.2k | TypeScript | MIT | **最像 Muse 的开源实现**:持久 Chromium + 可选 Linux 工作区,自建 server / task worker / browser worker |
+| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.0k | TypeScript | MIT | **最像 Muse 的开源实现**:持久 Chromium + 可选 Linux 工作区,自建 server / task worker / browser worker |
 | [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | 管理 Claude Code / Codex / **Muse** agent 集群的可视化面板 |
 | [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | 在 ESP32 上跑 Muse agent(硬件玩法) |
 | [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |

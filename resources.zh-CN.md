@@ -47,7 +47,7 @@
 
 ### 最接近 Muse 的开源替代
 
-- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★4.5k · MIT · TypeScript
+- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★5.0k · MIT · TypeScript
   个人 agent 应用,**自带 agent 电脑**:持久 Chromium + 可选 Linux 工作区;自建 server / task worker / browser worker;支持任意 agent harness;有 iOS / Android / Web 三端(React Native)。仓库内有 `docs/VERIFICATION.md`(什么被验证过)和 `ROADMAP.md`(什么还没做:图形桌面、自动结账)。
 - **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★16.0k · Python
   开源 agent harness,内置个人 agent(Ohmo)。
