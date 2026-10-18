@@ -138,17 +138,17 @@ Source: [TIME, 2026-10-06 — "Meta's Muse AI Agent Is Building a Dossier On You
 
 ## 5. Open-source alternatives & ecosystem
 
-Star counts captured **2026-10-08** via the GitHub API (see [`data.md`](data.md) for the snapshot and how to reproduce it).
+Star counts captured **2026-10-19** via the GitHub API (see [`data.md`](data.md) for the snapshot and how to reproduce it).
 
 | Project | ★ | Language | License | What it is |
 |---|---|---|---|---|
-| [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 15.9k | Python | MIT | Open agent harness with a built-in personal agent ("Ohmo") |
-| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.0k | TypeScript | MIT | **Closest open equivalent**: persistent Chromium + optional Linux workspace, own server / task worker / browser worker, iOS + Android + web |
-| [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | Visual manager for fleets of Claude Code / Codex / **Muse** agents |
-| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | Muse agent experiments on ESP32 hardware |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | One message deploys Claude Code onto your Muse VM; the repo now also ships *dimensio*, a multi-model agent workspace |
-| [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | TypeScript | Apache-2.0 | Unofficial ACP adapter — run Muse Code inside Zed / VS Code and other Agent Client Protocol editors |
-| [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | TypeScript | MIT | Personal agent that keeps context between conversations |
+| [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 16.0k | Python | MIT | Open agent harness with a built-in personal agent ("Ohmo") |
+| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.2k | TypeScript | MIT | **Closest open equivalent**: persistent Chromium + optional Linux workspace, own server / task worker / browser worker, iOS + Android + web |
+| [avirtual/clodex](https://github.com/avirtual/clodex) | 129 | JavaScript | Apache-2.0 | Visual manager for fleets of Claude Code / Codex / **Muse** agents |
+| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 29 | Shell | Apache-2.0 | Muse agent experiments on ESP32 hardware |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 18 | TypeScript | MIT | One message deploys Claude Code onto your Muse VM; the repo now also ships *dimensio*, a multi-model agent workspace |
+| [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 13 | TypeScript | Apache-2.0 | Unofficial ACP adapter — run Muse Code inside Zed / VS Code and other Agent Client Protocol editors |
+| [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 6 | TypeScript | MIT | Personal agent that keeps context between conversations |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | Python | MIT | 23-skill library for Muse agents + a decision layer |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Python | — | Chinese knowledge-base assistant |
 

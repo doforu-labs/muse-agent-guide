@@ -25,18 +25,18 @@
 
 ## 2. Open-source ecosystem stars & licences (GitHub API)
 
-Captured **2026-10-10 (UTC+8)** — every row re-read that day in a single GraphQL query. Stars move fast — treat as a snapshot, not a current value.
+Captured **2026-10-19 (UTC+8)** — every row re-read that day through the GitHub REST API; the previous capture was 2026-10-10. Stars move fast — treat as a snapshot, not a current value.
 
 | Repository | ★ | Last push | Language | Licence |
 |---|---|---|---|---|
-| HKUDS/OpenHarness | 15,955 | 2026-06-04 | Python | MIT |
-| CopilotKit/openmuse | 4,461 | 2026-10-10 | TypeScript | MIT |
-| xhluca/session-migrate | 130 | 2026-10-09 | Python | MIT |
-| avirtual/clodex | 124 | 2026-10-10 | JavaScript | Apache-2.0 |
-| JJenglert1/esp32-muse-agent | 23 | 2026-10-04 | Shell | Apache-2.0 |
-| Wode44398/muse-bridge | 14 | 2026-10-08 | TypeScript | MIT |
-| bex-co/muse-code-acp | 10 | 2026-10-09 | TypeScript | Apache-2.0 |
-| wlsdks/muse-agent | 5 | 2026-09-03 | TypeScript | MIT |
+| HKUDS/OpenHarness | 16,013 | 2026-06-04 | Python | MIT |
+| CopilotKit/openmuse | 5,224 | 2026-10-15 | TypeScript | MIT |
+| xhluca/session-migrate | 138 | 2026-10-09 | Python | MIT |
+| avirtual/clodex | 129 | 2026-10-18 | JavaScript | Apache-2.0 |
+| JJenglert1/esp32-muse-agent | 29 | 2026-10-04 | Shell | Apache-2.0 |
+| Wode44398/muse-bridge | 18 | 2026-10-08 | TypeScript | MIT |
+| bex-co/muse-code-acp | 13 | 2026-10-15 | TypeScript | Apache-2.0 |
+| wlsdks/muse-agent | 6 | 2026-09-03 | TypeScript | MIT |
 | theglitcharchitect/muse-skills | 3 | 2026-09-21 | Python | MIT |
 | jkxiongxin/muse-agent | 2 | 2026-07-30 | Python | — |
 | harris-ryder/dowser | 0 | 2026-10-09 | TypeScript | MIT |

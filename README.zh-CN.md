@@ -138,14 +138,14 @@ Meta 官方定义(来源:`about.fb.com/news/2026/09/introducing-muse-personal-ai
 
 | 项目 | ★ | 语言 | 许可 | 一句话定位 |
 |---|---|---|---|---|
-| [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 15.9k | Python | MIT | 开源 agent harness,自带个人 agent "Ohmo" |
-| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.0k | TypeScript | MIT | **最像 Muse 的开源实现**:持久 Chromium + 可选 Linux 工作区,自建 server / task worker / browser worker |
-| [avirtual/clodex](https://github.com/avirtual/clodex) | 124 | JavaScript | Apache-2.0 | 管理 Claude Code / Codex / **Muse** agent 集群的可视化面板 |
-| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 21 | Shell | Apache-2.0 | 在 ESP32 上跑 Muse agent(硬件玩法) |
-| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 13 | TypeScript | MIT | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
-| [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 10 | TypeScript | Apache-2.0 | 非官方 ACP 适配器:在 Zed / VS Code 等 ACP 编辑器里用 Muse Code |
+| [HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness) | 16.0k | Python | MIT | 开源 agent harness,自带个人 agent "Ohmo" |
+| [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | 5.2k | TypeScript | MIT | **最像 Muse 的开源实现**:持久 Chromium + 可选 Linux 工作区,自建 server / task worker / browser worker |
+| [avirtual/clodex](https://github.com/avirtual/clodex) | 129 | JavaScript | Apache-2.0 | 管理 Claude Code / Codex / **Muse** agent 集群的可视化面板 |
+| [JJenglert1/esp32-muse-agent](https://github.com/JJenglert1/esp32-muse-agent) | 29 | Shell | Apache-2.0 | 在 ESP32 上跑 Muse agent(硬件玩法) |
+| [Wode44398/muse-bridge](https://github.com/Wode44398/muse-bridge) | 18 | TypeScript | MIT | 一条消息把 Claude Code 部署到你的 Muse VM;该仓库现在还包含 *dimensio* 多模型 agent 工作台 |
+| [bex-co/muse-code-acp](https://github.com/bex-co/muse-code-acp) | 13 | TypeScript | Apache-2.0 | 非官方 ACP 适配器:在 Zed / VS Code 等 ACP 编辑器里用 Muse Code |
 | [theglitcharchitect/muse-skills](https://github.com/theglitcharchitect/muse-skills) | 3 | Python | MIT | 面向 Muse agent 的 23 个 skill 库 + 决策层 |
-| [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 5 | TypeScript | MIT | 跨会话保留上下文的个人 agent |
+| [wlsdks/muse-agent](https://github.com/wlsdks/muse-agent) | 6 | TypeScript | MIT | 跨会话保留上下文的个人 agent |
 | [jkxiongxin/muse-agent](https://github.com/jkxiongxin/muse-agent) | 2 | Python | — | 中文知识库助手(缪斯助手) |
 
 **官方相关产品线**:Muse Code(面向编程工作流,`dev.meta.ai`)· Muse for Small Business(小企业线,[`muse.ai/business`](https://muse.ai/business))· Muse Spark(模型,`research.meta.ai`)· 话题页 [`muse-code`](https://github.com/topics/muse-code) / [`muse-spark`](https://github.com/topics/muse-spark)。
