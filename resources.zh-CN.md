@@ -51,6 +51,8 @@
   个人 agent 应用,**自带 agent 电脑**:持久 Chromium + 可选 Linux 工作区;自建 server / task worker / browser worker;支持任意 agent harness;有 iOS / Android / Web 三端(React Native)。仓库内有 `docs/VERIFICATION.md`(什么被验证过)和 `ROADMAP.md`(什么还没做:图形桌面、自动结账)。
 - **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★16.0k · Python
   开源 agent harness,内置个人 agent(Ohmo)。
+- **[HarnessMD/munder-difflin](https://github.com/HarnessMD/munder-difflin)** ★8.9k(8,892)· MIT · TypeScript
+  一个多 agent harness,不额外收钱:把你已经在付的终端 CLI(Claude Code、Codex、Gemini CLI、OpenCode、Crush、GitHub Copilot CLI、Cursor 等)包起来,放进同一层"办公室",由一个"你的克隆"负责调度,agent 之间能发消息、转交任务、记住上下文。它自己的标语原文:*"Agent harness to run an office of your clones"*。Electron · React · Pixi.js · xterm.js · node-pty;共 **1,416 次提交、60 位贡献者、1,231 fork、20 个 topic**,主页 `munderdiffl.in`,最新已发布版本 **v0.5.5**(2026-10-01T21:00:56Z),而 README 的版本徽章已经写到 0.5.6。创建于 2026-05-31,最后推送 2026-10-19T04:45:27Z。它和 Muse 是**竞争关系而不是接入口**——没有 Muse 集成——也与 Meta 无关。两个同名仓库可以忽略:`AgentMrX/munder-difflin` 只有一次压缩导入提交(提交信息 *"Import HarnessMD/munder-difflin (squashed) as Mr. Rao AI edition"*,★0,创建于 2026-10-19T05:05:22Z,主页指向 `mrraoai.com`);下载徽章则仍指向改名前的路径 `chaitanyagiri/munder-difflin`。
 
 ### 生态周边(围绕 Muse 本身的工具)
 
