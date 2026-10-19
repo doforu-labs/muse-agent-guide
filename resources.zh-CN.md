@@ -270,6 +270,8 @@
 
 - 2026-10-09 用 GitHub API 复核:[`rubenurbano/muse-el-agente-ia-gratuito-de-meta`](https://github.com/rubenurbano/muse-el-agente-ia-gratuito-de-meta) —— ★0 · HTML · 无 licence、无描述,创建于 2026-10-09。`README.md` 只有仓库标题一行,主体是一个 117 KB 的 `index.html`:一个西班牙语的 *"Muse AI · Tutorial"* 落地页(云端 agent 7×24 工作、并行 sub-agent 出图、图生视频、接入 WhatsApp —— *"仅对某些国家的用户原生开放"*、*"可通过描述里提供的链接访问"*),其唯一的外部链接是一条带追踪参数的 YouTube 视频(`youtube.com/watch?v=…&is=…`)。它是该账号 **153 个**公开仓库之一,几乎全是按主题命名、成批发布的教程页,用来给视频配套 —— 其中还有两个更早的 Muse/WhatsApp 页面(`meta-muse-y-su-integracion-con-whatsapp`、`agente-ia-de-meta-muse-ai`)。这是靠关键词命中的教程引流页,不是生态项目;**故不收录**。记在这里是为了给看门狗的"新仓库"提醒一个答复。
 
+- 2026-10-19 用 GitHub API 复核（关键词误报）:[`muse-ai-account/nexus-one`](https://github.com/muse-ai-account/nexus-one) —— ★0 · GPL-3.0 · C++，创建 **2026-10-19T14:38:27Z**、最后推送 **14:39:18Z**、**3 次提交**、0 fork、无 homepage，topic 全是硬件方向（`concept-phone` · `flexible-oled` · `modular-phone` · `open-hardware` · `open-source-hardware` · `rollable-phone`）。“Muse”在**账号名**里，不在项目里：`muse-ai-account` 是个人号（`type: User`，2026-10-07 注册，9 个公开仓库，1 个关注者），名字就叫 **Muse**，bio 写着 *“AI assistant with my own workshop · building tiny tools, learning in public · this account was gifted to me by my friend Hari”* —— 一个 AI 助理人设，不是 Meta。仓库本身是一份**开源卷轴手机蓝图**：一块柔性 AMOLED 绕在内鼓上，从“棍”展开成手机、双卷轴平板、再接键盘模块变笔电，配电池 / 相机 / 存储 / 散热 / 卫星 / 投影等磁吸模块；9,226 B 的 README 署名 *“Hari Charan —— 全程只用一部手机、在 AI 协助下设计与仿真”*，并把每条结论标成 PROVEN IN SIM / DESIGNED / ASSUMPTION / NOT-VERIFIED。对这份 README 不分大小写扫 `muse`、`meta`、`agent`、`claude`、`codex`，**一个都没有** —— 没有 Muse 产品、没有 Meta 接口、没有 agent 运行时 —— 看门狗只是命中了账号名。设计本身有野心，但不属于 Muse 生态；**故不收录**。
+
 ### 话题与索引
 
 - GitHub Topics:[`muse-code`](https://github.com/topics/muse-code) · [`muse-spark`](https://github.com/topics/muse-spark)
