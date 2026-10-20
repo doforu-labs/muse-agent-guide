@@ -293,6 +293,8 @@
 
 它自己写明的限制，是「值得追踪」而不是「可以收录」的理由：用的是 Photon **共享号码**而不是每个 agent 一条独立线，只支持配对的单聊（没有群、通话、主动外呼、编辑与撤回），媒体上限 10 MiB / 8 个片段，并明确写着 *No new handset end-to-end result is claimed*；发送是 provider 确认，不等于手机真的收到，Photon 的套餐限制与费用独立于本仓库的 MIT 许可。README 里那个 Muse Agent Discord 链接，它自己说明是 *a community invitation, not an endorsement by these products*。本轮只读了 blob，没有 clone、安装或运行。标为「暂记」而不进上表：★0、建仓一天、Muse 支持是一个需要 owner 在真机上注册并验证的既有 hook。
 
+- [aliahh122122/ai-agent-free-vps-hunt](https://github.com/aliahh122122/ai-agent-free-vps-hunt) —— **只是一句 Muse 文案的占位仓库，此外什么都没有**：★0 · **无 licence 文件**（API 不报任何许可对象）· **无主语言**，API 体积 **0 KB**，0 fork、**0 关注 / 0 订阅**、0 未关闭 issue、**无 topic**、无 homepage、非 fork，描述逐字为 *“How my personal AI agent (Muse) hunts free VPS deals for me, 24/7, for $0”* · 创建于 **2026-10-20T06:38:53Z**、最后推送 **06:38:55Z** —— 从建仓到完成只有 **两秒**，本轮几分钟后读到，所以看门狗报了出来 · **仅 1 次提交**，`a46ff91`，*“Initial commit”*，作者时间 06:38:54Z。整棵树只有 **一个 blob**：`README.md`，**99 B**，读下来全文就是仓库名做成 `#` 标题，再把描述那句话原样重复一遍 —— 没有代码、没有 `muse` CLI 调用、没有 Model API 端点、没有安装路径、没有许可正文、也没有任何链接。所有者 `aliahh122122`（显示名就是登录名本身，无简介、blog 字段为空，账号建于 **2022-02-15T15:07:10Z**，**2 个公开仓库**，5 关注者）—— 是一个长期存在的真账号，而不是刚注册的关键词壳，这也是本条目里唯一不是占位的东西。那句话描述的东西（个人 agent 7×24 替 owner 找免费 VPS、成本 $0）说的是 owner 怎么用他的 agent，而不是一个别人能读、能跑、能引用的项目；仓库里没有任何东西支撑它。记在这里是为了让看门狗的「新仓库」报告有个答案，不进上表。未克隆、未安装、未运行。
+
 ### 明确不收的
 
 **命中了关键词不等于值得推荐。**描述 / README 本质上是**邀请码或推广链接**、或指向与自己描述自相矛盾的二进制下载的仓库一律不收 —— 那是推广或更糟的东西,不是生态项目。
