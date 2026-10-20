@@ -47,7 +47,7 @@
 
 ### 最接近 Muse 的开源替代
 
-- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★5.2k · MIT · TypeScript
+- **[CopilotKit/openmuse](https://github.com/CopilotKit/openmuse)** ★5.3k · MIT · TypeScript
   个人 agent 应用,**自带 agent 电脑**:持久 Chromium + 可选 Linux 工作区;自建 server / task worker / browser worker;支持任意 agent harness;有 iOS / Android / Web 三端(React Native)。仓库内有 `docs/VERIFICATION.md`(什么被验证过)和 `ROADMAP.md`(什么还没做:图形桌面、自动结账)。
 - **[HKUDS/OpenHarness](https://github.com/HKUDS/OpenHarness)** ★16.0k · Python
   开源 agent harness,内置个人 agent(Ohmo)。
@@ -316,7 +316,7 @@
 
 - 2026-10-20 用 GitHub API 复核（关键词误报）:[`KyleZheng8848/musepaper`](https://github.com/KyleZheng8848/musepaper) —— ★0 · **MIT** · Swift/SwiftUI，创建 **2026-10-20T13:00:59Z**、最后推送 **13:03:22Z**、**2 次提交**、**115 个文件 / 5,711,526 B**、0 fork、0 关注、0 未结 issue、无 homepage，topic 为 `ai` · `macos` · `openai` · `swift` · `swiftui` · `wallpaper`。描述自称**原生 macOS AI 壁纸工作室**:长期运行的生成任务、围绕主题扩写 Prompt 的 Prompt Agent、按 AI 标签自动筛选的作品集,再交给桌面轮播换壁纸。9,856 B 的 README 接入 OpenAI Image API(默认模型 `gpt-image-2`),带离线 Demo Renderer 与 Swift 6 / macOS 14 应用包,API Key 存在本机 `0600` 凭据文件里。**和 Muse 的关系只有名字,而且是量过的**:在这份 README 里不分大小写扫,`Meta` **0** 次、`meta.ai` **0** 次、`muse.ai` **0** 次、`connector` **0** 次,**17** 处 `muse` 全部是产品名 *Musepaper* 的一部分。没有 Muse 产品、没有 Meta 接口、没有连接器 —— 看门狗只命中了仓库名;**故不收录**。
 - 2026-10-20 用 GitHub API 复核（关键词误报）:[`gmg0829/personal-brain`](https://github.com/gmg0829/personal-brain) —— ★0 · **无许可证**，创建 **2026-10-19T14:11:36Z**、最后推送 **2026-10-20T13:01:20Z**，无 topic、0 fork、单分支。本质是**个人第二大脑**:53 个 markdown、**没有一行代码** —— `AGENTS.md` 入口、身份目录(identity / soul / user)、人物与群组、偏好、长期记忆、每日日志,以及健康/投资/家庭目录。**这里的 "Muse" 是主人给自己助手的称呼,不是 Meta 的产品**:`40-memory/MEMORY.md` 写着 *"The user chose 'Muse' as the name to call the assistant"*,并把他加入 tailnet 的机器记为设备 `muse`;另有一条讲 Ins 绑错 "Meta 账号",是另一件事的上下文。全仓没有任何 Muse 接口、连接器、CLI 或模型引用 —— 没有文件在跟 Meta 通话。一个被误公开的私人知识库,不是生态项目;**故不收录**。
-
+- 2026-10-20 用 GitHub API 复核（关键词误报）：[`webkubor/museav-cli`](https://github.com/webkubor/museav-cli) —— ★33 · **MIT** · TypeScript，创建 **2026-07-29T08:57:11Z**、最后推送 **2026-10-20T07:51:53Z**、默认分支 `main` 停在 **`93975962`**（提交于 2026-10-20T06:59:48Z）、**136 次提交**、**2 个 release**、0 未结 issue、7 fork、**60 个 blob**、API 体积 **34,933 KB**、homepage 为 `studio.webkubor.online`，11 个 topic（`ai-agents` · `asset-management` · `cli` · `generative-ai` · `image-generation` · `image-processing` · `image-templates` · `museav` · `nodejs` · `typescript` · `video-generation`）。它是个真实在维护的工具 —— 一个做图像与视频生成的 Node CLI，带可复用模板、素材上传与本地图像处理，以 `@museav/cli` 发布在 npm，设计上就是给 agent 从终端调用的 —— 但**这里的 \"MUSE\" 是一个产品品牌 \"MUSE AV\"，卖点在作者自己的工作室站点**，不是 Meta 的 agent：50,939 B 的 README 把这个 CLI 定位成该产品自家网页版的终端入口，而整份文件不分大小写扫 `meta` **0** 次，也没有 `meta.ai`、`api.meta.ai`、Muse Code、Muse Spark 或任何 Muse 连接器。看门狗命中的是一个品牌名里的四个字母；**故不收录**。
 
 ### 话题与索引
 
